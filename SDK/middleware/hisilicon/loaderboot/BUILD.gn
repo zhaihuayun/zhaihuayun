@@ -1,0 +1,131 @@
+import("//build/toolchain/config.gni")
+set_defaults("executable") {
+    cflags = [
+        "-Os",
+        "-pipe",
+        "-W",
+        "-Wextra",
+        "-Wmissing-declarations",
+        "-Winit-self",
+        "-Wmissing-include-dirs",
+        "-Wtrampolines",
+        "-Wundef",
+        "-Wpointer-arith",
+        "-Wlogical-op",
+        "-Wstrict-prototypes",
+        "-Wmissing-prototypes",
+        "-Wjump-misses-init",
+        "-Wformat=2",
+        "-Wfloat-equal",
+        "-Wdate-time",
+        "-Wswitch-default",
+        "-Wimplicit-fallthrough=2",
+        "-Wno-missing-declarations",
+        "-std=gnu99",
+        "-fsigned-char",
+        "-fno-builtin",
+        "-ffreestanding",
+        "-nostdlib",
+        "-fno-exceptions",
+        "-fno-unwind-tables",
+        "-fno-short-enums",
+        "-fno-common",
+        "-freg-struct-return",
+        "-mabi=ilp32",
+        "-march=rv32imc",
+        "-fno-strict-aliasing",
+        "-fdata-sections",
+        "-ffunction-sections",
+        "-falign-functions=2",
+        "-fno-schedule-insns",
+        "-fno-optimize-strlen",
+        "-fno-aggressive-loop-optimizations",
+        "-Wa,-enable-c-lbu-sb",
+        "-Wa,-enable-c-lhu-sh",
+        "-msave-restore",
+        "-msmall-data-limit=0",
+        "-fimm-compare",
+        "-femit-muliadd",
+        "-fmerge-immshf",
+        "-femit-uxtb-uxth",
+        "-femit-lli",
+        "-fldm-stm-optimize",
+        "-fstack-protector-strong",
+        "-fno-inline-small-functions",
+        "-fsingle-precision-constant"
+    ]
+    asmflags = []
+    ldflags = [
+        "-Wl,-Map,bin/loader.map",
+        "-Wl,--enjal16",
+        "-Wl,--gc-section",
+        "-nostdlib",
+        "-static",
+        "-lgcc",
+        "-lc",
+        "-T../scripts/loaderboot.lds",
+    ]
+    defines = [
+    ]
+    if(build_type == "debug") {
+        cflags += [
+            "-g"
+        ]
+    }else if(build_type == "release") {
+        cflags += [
+            "-fomit-frame-pointer"
+        ]
+        defines += [
+            "NDEBUG"
+        ]
+    }
+}
+executable("loader.elf") {
+    sources = [
+        "//startup/riscv_init.S",
+        "//source/main.c",
+        "//source/loader/src/cmd.c",
+        "//source/loader/src/reset.c",
+        "//source/loader/src/loadertype.c",
+        "//source/loader/src/handshake.c",
+        "//source/loader/src/uart_rcv.c",
+        "//source/loader/src/uart_xmit.c",
+        "//source/loader/src/stack_protect.c",
+        "//source/drivers_adapt/src/flash_adapt.c",
+        "//source/drivers_adapt/src/uart_adapt.c",
+        "//source/drivers_adapt/src/crc_adapt.c",
+        "//source/drivers_adapt/src/timer_adapt.c",
+        "//source/fake_drivers/crg/src/crg.c",
+        "//drivers/crc/crc_v0/src/crc.c",
+        "//drivers/timer/timer_v0/src/timer.c",
+        "//drivers/flash/flash_v0/src/flash.c",
+        "//drivers/uart/uart_v0/src/uart.c",
+        "//drivers/base/base_v0/src/interrupt.c",
+        "//drivers/base/base_v0/src/clock.c",
+        "//drivers/dma/dma_v0/src/dma.c",
+        "//chip/3065h/chipinit/systickinit/systickinit.c",
+    ]
+    include_dirs = [
+        "//include",
+        "//generatecode",
+        "//chip/3065h",
+        "//chip/3065h/ip_crg",
+        "//chip/3065h/chipinit/systickinit",
+        "//drivers/base/base_v0/inc",
+        "//drivers/base/common/inc",
+        "//drivers/dma/dma_v0/inc",
+        "//drivers/dma/common/inc",
+        "//drivers/timer/timer_v0/inc",
+        "//drivers/timer/common/inc",
+        "//drivers/crc/crc_v0/inc",
+        "//drivers/crc/common/inc",
+        "//drivers/flash/flash_v0/inc",
+        "//drivers/flash/common/inc",
+        "//drivers/uart/uart_v0/inc",
+        "//drivers/uart/common/inc",
+        "//source/loader/inc",
+        "//source/drivers_adapt/inc",
+        "//source/fake_drivers/crg/common/inc",
+        "//source/fake_drivers/crg/inc",
+    ]
+}

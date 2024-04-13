@@ -1,0 +1,27 @@
+{
+    "modules": [
+        "application/user",
+        "build",
+        "chip/au/chipinit",
+        "chip/au/fotp",
+        "chip/au/iomap/au302pdf51",
+        "chip/au/ip_crg",
+        "chip/au/baseaddr.h",
+        "chip/au/chipinc.h",
+        "chip/au/info.h",
+        "chip/au/interrupt_ip.h",
+        "chip/au/ioconfig.h",
+        "chip/au/locktype.h",
+        "chip/au/sysctrl.h",
+        "chip/au/systick.h",
+        "chip/au/flash.lds",
+        "chip/au/startup.S",
+        "chip/target",
+        "drivers",
+        "generatecode",
+        "middleware/hisilicon/loaderboot",
+        "middleware/thirdparty/sysroot",
+        "tools/uttest",
+        "bundle.json"
+    ]
+}

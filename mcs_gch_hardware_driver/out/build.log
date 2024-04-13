@@ -1,0 +1,97 @@
+ninja: Entering directory `out'
+[1/47] cross compiler obj/chip/3065h/chipinit/nosinit/nosinit.o
+[2/47] cross compiler obj/chip/3065h/fotp/fotp_info_read.o
+[3/47] cross compiler obj/chip/3065h/ip_crg/ip_crg_common.o
+[4/47] cross compiler obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+[5/47] cross compiler obj/drivers/acmp/src/acmp.o
+[6/47] cross compiler obj/chip/3065h/chipinit/adcinit/adcinit.o
+[7/47] cross compiler obj/chip/3065h/chipinit/pgainit/pgainit.o
+[8/47] cross compiler obj/chip/3065h/chipinit/systickinit/systickinit.o
+[9/47] cross compiler obj/chip/3065h/chipinit/flashinit/flashinit.o
+[10/47] cross compiler obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+[11/47] cross compiler obj/chip/3065h/startup.o
+[12/47] cross compiler obj/drivers/adc/src/adc.o
+[13/47] cross compiler obj/drivers/base/src/reset.o
+[14/47] cross compiler obj/chip/3065h/chipinit/chipinit.o
+[15/47] cross compiler obj/chip/3065h/chipinit/crginit/crginit.o
+[16/47] cross compiler obj/drivers/capm/src/capm.o
+[17/47] cross compiler obj/drivers/can/src/can.o
+[18/47] cross compiler obj/drivers/cfd/src/cfd.o
+[19/47] cross compiler obj/drivers/cmm/src/cmm.o
+[20/47] cross compiler obj/drivers/base/src/clock.o
+[21/47] cross compiler obj/drivers/base/src/lock.o
+[22/47] cross compiler obj/drivers/base/src/generalfunc.o
+[23/47] cross compiler obj/drivers/base/src/interrupt.o
+[24/47] cross compiler obj/drivers/base/src/base_math.o
+[25/47] cross compiler obj/drivers/pga/src/pga.o
+[26/47] cross compiler obj/drivers/iocmg/src/iocmg.o
+[27/47] cross compiler obj/drivers/crg/src/crg.o
+[28/47] cross compiler obj/drivers/gpio/src/gpio.o
+[29/47] cross compiler obj/drivers/gpt/src/gpt.o
+[30/47] cross compiler obj/drivers/flash/src/flash.o
+[31/47] cross compiler obj/drivers/pmc/src/pmc.o
+[32/47] cross compiler obj/drivers/i2c/src/i2c.o
+[33/47] cross compiler obj/drivers/crc/src/crc.o
+[34/47] cross compiler obj/drivers/debug/src/debug.o
+[35/47] cross compiler obj/drivers/apt/src/apt.o
+[36/47] cross compiler obj/drivers/dma/src/dma.o
+[37/47] cross compiler obj/drivers/dac/src/dac.o
+[38/47] cross compiler obj/drivers/tsensor/src/tsensor_ex.o
+[39/47] cross compiler obj/drivers/tsensor/src/tsensor.o
+[40/47] cross compiler obj/drivers/wdg/src/wdg.o
+[41/47] cross compiler obj/user/main.o
+[42/47] cross compiler obj/drivers/spi/src/spi.o
+[43/47] cross compiler obj/drivers/timer/src/timer.o
+[44/47] cross compiler obj/drivers/qdm/src/qdm.o
+[45/47] cross compiler obj/drivers/uart/src/uart.o
+[46/47] cross compiler obj/user/generatecode/system_init.o
+[47/47] LINK ./bin/target.elf
+t/adcinit -I../chip/3065h/chipinit/crginit -I../chip/3065h/chipinit/flashinit -I../chip/3065h/chipinit/nosinit -I../chip/3065h/chipinit/pgainit -I../chip/3065h/chipinit/pmcinit -I../chip/3065h/chipinit/systickinit -I../chip/3065h/fotp -I../chip/3065h/iomap/3065hrpicz -I../chip/3065h/iomap/3065hrpirz -I../chip/3065h/ip_crg -I../drivers/acmp/common/inc -I../drivers/acmp/inc -I../drivers/adc/common/inc -I../drivers/adc/inc -I../drivers/apt/common/inc -I../drivers/apt/inc -I../drivers/base/common/inc -I../drivers/base/inc -I../drivers/can/common/inc -I../drivers/can/inc -I../drivers/capm/common/inc -I../drivers/capm/inc -I../drivers/cfd/common/inc -I../drivers/cfd/inc -I../drivers/cmm/common/inc -I../drivers/cmm/inc -I../drivers/crc/common/inc -I../drivers/crc/inc -I../drivers/crg/common/inc -I../drivers/crg/inc -I../drivers/dac/common/inc -I../drivers/dac/inc -I../drivers/debug/inc -I../drivers/dma/common/inc -I../drivers/dma/inc -I../drivers/flash/common/inc -I../drivers/flash/inc -I../drivers/gpio/common/inc -I../drivers/gpio/inc -I../drivers/gpt/common/inc -I../drivers/gpt/inc -I../drivers/i2c/common/inc -I../drivers/i2c/inc -I../drivers/iocmg/common -I../drivers/iocmg/inc -I../drivers/pga/common/inc -I../drivers/pga/inc -I../drivers/pmc/common/inc -I../drivers/pmc/inc -I../drivers/qdm/common/inc -I../drivers/qdm/inc -I../drivers/spi/common/inc -I../drivers/spi/inc -I../drivers/timer/common/inc -I../drivers/timer/inc -I../drivers/tsensor/common/inc -I../drivers/tsensor/inc -I../drivers/uart/common/inc -I../drivers/uart/inc -I../drivers/wdg/common/inc -I../drivers/wdg/inc -I../user/generatecode -Os -pipe -Wall -Wextra -Wmissing-declarations -Winit-self -Wmissing-include-dirs -Wtrampolines -Wundef -Wpointer-arith -Wlogical-op -Wstrict-prototypes -Wmissing-prototypes -Wjump-misses-init -Wformat=2 -Wfloat-equal -Wdate-time -Wswitch-default -Wimplicit-fallthrough=2 -Wno-missing-declarations -std=gnu99 -fsigned-char -fno-builtin -ffreestanding -nostdlib -fno-exceptions -fno-unwind-tables -fno-short-enums -fno-common -freg-struct-return -mabi=ilp32f -march=rv32imfc -fno-strict-aliasing -fdata-sections -ffunction-sections -falign-functions=2 -fno-schedule-insns -fno-optimize-strlen -fno-aggressive-loop-optimizations -Wa,-enable-c-lbu-sb -Wa,-enable-c-lhu-sh -msmall-data-limit=0 -fimm-compare -femit-muliadd -fmerge-immshf -femit-uxtb-uxth -femit-lli -fldm-stm-optimize -fno-inline-small-functions -mtune=size -mpush-pop -femit-clz -madjust-regorder -madjust-const-cost -freorder-commu-args -fimm-compare-expand -frmv-str-zero -mfp-const-opt -mswitch-jump-table -frtl-sequence-abstract -frtl-hoist-sink -fsafe-alias-multipointer -finline-optimize-size -fmuliadd-expand -mlli-expand -Wa,-mcjal-expand -foptimize-reg-alloc -fsplit-multi-zero-assignments -floop-optimize-size -mpattern-abstract -foptimize-pro-and-epilogue -fstrict-volatile-bitfields -g -c ../user/main.c -o obj/user/main.o
+../user/main.c:27:10: fatal error: r_mcl.h: No such file or directory
+ #include "r_mcl.h"
+          ^~~~~~~~~
+compilation terminated.
+[44/47] cross compiler obj/drivers/wdg/src/wdg.o
+[45/47] cross compiler obj/drivers/uart/src/uart.o
+[46/47] cross compiler obj/user/generatecode/system_init.o
+ninja: build stopped: subcommand failed.
+s_fan/source/fan_pid_ctrl.o
+[97/112] cross compiler obj/user/mcs_cmp/source/svpwm.o
+[98/112] cross compiler obj/user/mcs_cmp/source/torque_ctrl.o
+[99/112] cross compiler obj/user/mcs_fan/source/fan_spd_ctrl.o
+[100/112] cross compiler obj/user/mcs_fan/source/fan_thetaerr_calc.o
+[101/112] cross compiler obj/user/mcs_fan/source/fan_start_up.o
+[102/112] cross compiler obj/user/mcs_share/source/user_math.o
+[103/112] cross compiler obj/user/mcs_pfc/source/pfc_main_init.o
+[104/112] cross compiler obj/user/mcs_fan/source/fan_param_data.o
+[105/112] cross compiler obj/user/mcs_share/source/curr_phase_sample.o
+[106/112] cross compiler obj/user/mcs_fan/source/fan_wind_detect.o
+[107/112] cross compiler obj/user/mcs_share/source/atan2.o
+[108/112] cross compiler obj/user/mcs_share/source/clarke_trans.o
+[109/112] cross compiler obj/user/mcs_share/source/park_trans.o
+[110/112] cross compiler obj/user/mcs_fan/source/fan_volt_decp.o
+[111/112] cross compiler obj/user/mcs_fan/source/fan_pll_ctrl.o
+[112/112] LINK ./bin/target.elf
+FAILED: bin/target.elf 
+riscv32-linux-musl-gcc -Wl,--start-group -Wl,-Map,bin/target.map -Wl,--enjal16 -Wl,--gc-section -Wl,--cjal-relax -Wl,--dslf -Wl,--jal-transfer -nostdlib -static -lgcc -lc -T..\chip\3065h\flash.lds -Wl,--whole-archive @./bin/target.elf.rsp -Wl,--no-whole-archive  -Wl,--end-group -o ./bin/target.elf
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: obj/user/mcs_share/source/user_math.o: in function `ASM_Sqrt':
+C:\myproject\motor_driver_2shunt_v1.00\out/../user/mcs_share/source/user_math.c:163: multiple definition of `ASM_Sqrt'; obj/middleware/control_library/mcs_math.o:C:\myproject\motor_driver_2shunt_v1.00\out/../middleware/control_library/mcs_math.c:285: first defined here
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+p -Wl,-Map,bin/target.map -Wl,--enjal16 -Wl,--gc-section -Wl,--cjal-relax -Wl,--dslf -Wl,--jal-transfer -nostdlib -static -lgcc -lc -T..\chip\3065h\flash.lds -Wl,--whole-archive @./bin/target.elf.rsp -Wl,--no-whole-archive  -Wl,--end-group -o ./bin/target.elf
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: obj/user/mcs_cmp/source/cmp_common.o: in function `mtr_vector_cur_calc':
+C:\myproject\motor_driver_v3.00\out/../user/mcs_cmp/source/cmp_common.c:174: undefined reference to `ASM_Sqrt'
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: obj/user/mcs_cmp/source/motor.o: in function `mtr_acr_pi_ctrl':
+C:\myproject\motor_driver_v3.00\out/../user/mcs_cmp/source/motor.c:177: undefined reference to `ASM_Sqrt'
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: obj/user/mcs_cmp/source/mtr_gain_update_angle_est.o: invalid string offset 1920232704 >= 16817979534628835 for section `(null)'
+obj/user/mcs_cmp/source/mtr_gain_update_angle_est.o: in function `mtr_mtpa_idq_calc':
+C:\myproject\motor_driver_v3.00\out/../user/mcs_cmp/source/mtr_gain_update_angle_est.c:204: undefined reference to `ASM_Sqrt'
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: obj/user/mcs_cmp/source/torque_ctrl.o: invalid string offset 1919906816 >= 16817979534626421 for section `(null)'
+obj/user/mcs_cmp/source/torque_ctrl.o: in function `mtr_torque_gctrl':
+C:\myproject\motor_driver_v3.00\out/../user/mcs_cmp/source/torque_ctrl.c:39: undefined reference to `ASM_Sqrt'
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: obj/user/mcs_fan/source/fan_cur_ref_calc.o: invalid string offset 1851876864 >= 16817979534606887 for section `(null)'
+obj/user/mcs_fan/source/fan_cur_ref_calc.o: in function `Curr_Ref_Calc':
+C:\myproject\motor_driver_v3.00\out/../user/mcs_fan/source/fan_cur_ref_calc.c:48: undefined reference to `ASM_Sqrt'
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0/../../../../riscv32-linux-musl/bin/ld: obj/user/mcs_fan/source/fan_main_task.o:C:\myproject\motor_driver_v3.00\out/../user/mcs_fan/source/fan_main_task.c:538: more undefined references to `ASM_Sqrt' follow
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.

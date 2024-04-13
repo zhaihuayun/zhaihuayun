@@ -1,0 +1,2058 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+                              obj/drivers/gpt/src/gpt.o (__divdi3)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+                              obj/drivers/gpt/src/gpt.o (__udivdi3)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+                              obj/drivers/base/src/base_math.o (__adddf3)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+                              obj/drivers/base/src/base_math.o (__gtdf2)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+                              obj/drivers/base/src/base_math.o (__ltdf2)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+                              obj/drivers/base/src/base_math.o (__muldf3)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+                              obj/drivers/base/src/base_math.o (__subdf3)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+                              obj/drivers/base/src/base_math.o (__extendsfdf2)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+                              obj/drivers/base/src/base_math.o (__truncdfsf2)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+                              c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o) (__clz_tab)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+                              c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o) (__clzsi2)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memcpy.o)
+                              obj/drivers/crg/src/crg.o (memcpy)
+c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memset.o)
+                              obj/drivers/adc/src/adc.o (memset)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 obj/chip/3065h/startup.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/startup.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/startup.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/chipinit/chipinit.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/chipinit/chipinit.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/chipinit/chipinit.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .text.ADC_GetGainTrim
+                0x0000000000000000       0x1e obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/chipinit/crginit/crginit.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/chipinit/crginit/crginit.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/chipinit/crginit/crginit.o
+ .text.CRG_Config
+                0x0000000000000000       0x36 obj/chip/3065h/chipinit/crginit/crginit.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/chipinit/nosinit/nosinit.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/chipinit/nosinit/nosinit.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/chipinit/nosinit/nosinit.o
+ .debug_line    0x0000000000000000        0x0 obj/chip/3065h/chipinit/nosinit/nosinit.o
+ .debug_str     0x0000000000000000      0x3e5 obj/chip/3065h/chipinit/nosinit/nosinit.o
+ .comment       0x0000000000000000       0x26 obj/chip/3065h/chipinit/nosinit/nosinit.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .text.SYSTICK_GetTimeStampUs
+                0x0000000000000000       0x26 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/fotp/fotp_info_read.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/fotp/fotp_info_read.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/fotp/fotp_info_read.o
+ .text          0x0000000000000000        0x0 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .data          0x0000000000000000        0x0 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .bss           0x0000000000000000        0x0 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .text          0x0000000000000000        0x0 obj/drivers/acmp/src/acmp.o
+ .data          0x0000000000000000        0x0 obj/drivers/acmp/src/acmp.o
+ .bss           0x0000000000000000        0x0 obj/drivers/acmp/src/acmp.o
+ .text.HAL_ACMP_DeInit
+                0x0000000000000000       0x12 obj/drivers/acmp/src/acmp.o
+ .text.HAL_ACMP_SetHystVol
+                0x0000000000000000       0x10 obj/drivers/acmp/src/acmp.o
+ .text.HAL_ACMP_SoftBlkingValid
+                0x0000000000000000        0xc obj/drivers/acmp/src/acmp.o
+ .text.HAL_ACMP_SoftBlkingInvalid
+                0x0000000000000000        0xc obj/drivers/acmp/src/acmp.o
+ .text          0x0000000000000000        0x0 obj/drivers/adc/src/adc.o
+ .data          0x0000000000000000        0x0 obj/drivers/adc/src/adc.o
+ .bss           0x0000000000000000        0x0 obj/drivers/adc/src/adc.o
+ .text.DCL_ADC_SetSOCxBlindIntx
+                0x0000000000000000       0x14 obj/drivers/adc/src/adc.o
+ .text.ADC_DMATransFinish
+                0x0000000000000000        0xa obj/drivers/adc/src/adc.o
+ .text.ADC_DMATransError
+                0x0000000000000000        0xa obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_Deinit
+                0x0000000000000000       0x14 obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_StartDma
+                0x0000000000000000       0x7c obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_StartIt
+                0x0000000000000000       0x6e obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_StartSyncSample
+                0x0000000000000000       0x7a obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_SoftTrigMultiSample
+                0x0000000000000000       0x30 obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_SoftTrigSample
+                0x0000000000000000       0x22 obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_CheckSocFinish
+                0x0000000000000000       0x14 obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_ActiveCalibrateRet
+                0x0000000000000000       0x5e obj/drivers/adc/src/adc.o
+ .text.DCL_ADC_ReadSOCxResult
+                0x0000000000000000       0x1c obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_GetConvResult
+                0x0000000000000000        0xa obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_InitForVdda
+                0x0000000000000000       0x82 obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_GetVddaByDac
+                0x0000000000000000       0xca obj/drivers/adc/src/adc.o
+ .text.HAL_ADC_GetTransResultByVdda
+                0x0000000000000000       0x52 obj/drivers/adc/src/adc.o
+ .rodata.HAL_ADC_GetTransResultByVdda.cst4
+                0x0000000000000000        0x8 obj/drivers/adc/src/adc.o
+ .rodata.HAL_ADC_GetVddaByDac.cst4
+                0x0000000000000000        0xc obj/drivers/adc/src/adc.o
+ .text          0x0000000000000000        0x0 obj/drivers/apt/src/apt.o
+ .data          0x0000000000000000        0x0 obj/drivers/apt/src/apt.o
+ .bss           0x0000000000000000        0x0 obj/drivers/apt/src/apt.o
+ .text.APT_RspDeInit
+                0x0000000000000000        0x2 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_PWMDeInit
+                0x0000000000000000       0x52 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_ProtectInit
+                0x0000000000000000      0x172 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_ProtectDeInitEx
+                0x0000000000000000       0x14 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_ProtectDeInit
+                0x0000000000000000       0x14 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_EMInit
+                0x0000000000000000      0x20c obj/drivers/apt/src/apt.o
+ .text.HAL_APT_EMGetCapValue
+                0x0000000000000000       0x16 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_EMSetWdOffsetAndWidth
+                0x0000000000000000       0x26 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_EMSetValleySwithSoftDelay
+                0x0000000000000000       0x12 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_ForcePWMOutputLow
+                0x0000000000000000       0x98 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_StartModule
+                0x0000000000000000        0xc obj/drivers/apt/src/apt.o
+ .text.HAL_APT_StopModule
+                0x0000000000000000       0x10 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_SetPWMDuty
+                0x0000000000000000       0x18 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_SetPWMDutyByNumber
+                0x0000000000000000       0x62 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_SetADCTriggerTime
+                0x0000000000000000       0x18 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_ChangeOutputType
+                0x0000000000000000       0x9e obj/drivers/apt/src/apt.o
+ .rodata.HAL_APT_SetPWMDutyByNumber.cst4
+                0x0000000000000000        0x8 obj/drivers/apt/src/apt.o
+ .text          0x0000000000000000        0x0 obj/drivers/base/src/base_math.o
+ .data          0x0000000000000000        0x0 obj/drivers/base/src/base_math.o
+ .bss           0x0000000000000000        0x0 obj/drivers/base/src/base_math.o
+ .text.BASE_MATH_CalSinIn90
+                0x0000000000000000       0xbe obj/drivers/base/src/base_math.o
+ .text.BASE_MATH_GetSinCos
+                0x0000000000000000       0xb2 obj/drivers/base/src/base_math.o
+ .text.BASE_MATH_GetSin
+                0x0000000000000000       0x90 obj/drivers/base/src/base_math.o
+ .text.BASE_MATH_GetCos
+                0x0000000000000000       0x8a obj/drivers/base/src/base_math.o
+ .text.BASE_MATH_Sqrt
+                0x0000000000000000       0x40 obj/drivers/base/src/base_math.o
+ .text.BASE_MATH_Pow
+                0x0000000000000000       0x86 obj/drivers/base/src/base_math.o
+ .text.BASE_MATH_Clarke
+                0x0000000000000000       0x3c obj/drivers/base/src/base_math.o
+ .text.BASE_MATH_Park
+                0x0000000000000000       0x6c obj/drivers/base/src/base_math.o
+ .text.BASE_MATH_RevPark
+                0x0000000000000000       0x3e obj/drivers/base/src/base_math.o
+ .rodata.BASE_MATH_CalSinIn90.cst8
+                0x0000000000000000       0x28 obj/drivers/base/src/base_math.o
+ .rodata.BASE_MATH_GetSin.cst4
+                0x0000000000000000       0x10 obj/drivers/base/src/base_math.o
+ .rodata.BASE_MATH_Pow.cst4
+                0x0000000000000000        0x4 obj/drivers/base/src/base_math.o
+ .rodata.BASE_MATH_Pow.cst8
+                0x0000000000000000       0x10 obj/drivers/base/src/base_math.o
+ .rodata.BASE_MATH_Sqrt.cst4
+                0x0000000000000000        0x8 obj/drivers/base/src/base_math.o
+ .rodata.g_triFunMappingTable
+                0x0000000000000000      0x200 obj/drivers/base/src/base_math.o
+ .debug_info    0x0000000000000000      0x515 obj/drivers/base/src/base_math.o
+ .debug_abbrev  0x0000000000000000      0x1fb obj/drivers/base/src/base_math.o
+ .debug_loc     0x0000000000000000      0x638 obj/drivers/base/src/base_math.o
+ .debug_aranges
+                0x0000000000000000       0x60 obj/drivers/base/src/base_math.o
+ .debug_ranges  0x0000000000000000       0x68 obj/drivers/base/src/base_math.o
+ .debug_line    0x0000000000000000      0x400 obj/drivers/base/src/base_math.o
+ .debug_str     0x0000000000000000      0x5c4 obj/drivers/base/src/base_math.o
+ .comment       0x0000000000000000       0x26 obj/drivers/base/src/base_math.o
+ .debug_frame   0x0000000000000000      0x11c obj/drivers/base/src/base_math.o
+ .text          0x0000000000000000        0x0 obj/drivers/base/src/clock.o
+ .data          0x0000000000000000        0x0 obj/drivers/base/src/clock.o
+ .bss           0x0000000000000000        0x0 obj/drivers/base/src/clock.o
+ .text.BASE_FUNC_GetCpuFreqHz
+                0x0000000000000000        0x8 obj/drivers/base/src/clock.o
+ .text          0x0000000000000000        0x0 obj/drivers/base/src/generalfunc.o
+ .data          0x0000000000000000        0x0 obj/drivers/base/src/generalfunc.o
+ .bss           0x0000000000000000        0x0 obj/drivers/base/src/generalfunc.o
+ .text.BASE_FUNC_GetTick
+                0x0000000000000000        0x8 obj/drivers/base/src/generalfunc.o
+ .text.BASE_FUNC_FindArrayValue
+                0x0000000000000000       0x3a obj/drivers/base/src/generalfunc.o
+ .text.BASE_FUNC_CalcSumByte
+                0x0000000000000000       0x1c obj/drivers/base/src/generalfunc.o
+ .text.BASE_FUNC_CalcSumShort
+                0x0000000000000000       0x1c obj/drivers/base/src/generalfunc.o
+ .text.BASE_FUNC_AverageInit
+                0x0000000000000000       0x2e obj/drivers/base/src/generalfunc.o
+ .text.BASE_FUNC_GetSlipAverageVal
+                0x0000000000000000       0x74 obj/drivers/base/src/generalfunc.o
+ .text.BASE_FUNC_AverageDeInit
+                0x0000000000000000       0x16 obj/drivers/base/src/generalfunc.o
+ .text.BASE_FSM_FunRegister
+                0x0000000000000000       0x12 obj/drivers/base/src/generalfunc.o
+ .text.BASE_FSM_Run
+                0x0000000000000000       0x30 obj/drivers/base/src/generalfunc.o
+ .bss.g_averageHandle
+                0x0000000000000000       0x30 obj/drivers/base/src/generalfunc.o
+ .bss.g_fsmHandle
+                0x0000000000000000        0xc obj/drivers/base/src/generalfunc.o
+ .debug_info    0x0000000000000000      0x441 obj/drivers/base/src/generalfunc.o
+ .debug_abbrev  0x0000000000000000      0x1cf obj/drivers/base/src/generalfunc.o
+ .debug_loc     0x0000000000000000      0x2b0 obj/drivers/base/src/generalfunc.o
+ .debug_aranges
+                0x0000000000000000       0x60 obj/drivers/base/src/generalfunc.o
+ .debug_ranges  0x0000000000000000       0x68 obj/drivers/base/src/generalfunc.o
+ .debug_line    0x0000000000000000      0x30d obj/drivers/base/src/generalfunc.o
+ .debug_str     0x0000000000000000      0x697 obj/drivers/base/src/generalfunc.o
+ .comment       0x0000000000000000       0x26 obj/drivers/base/src/generalfunc.o
+ .debug_frame   0x0000000000000000       0xb4 obj/drivers/base/src/generalfunc.o
+ .text          0x0000000000000000        0x0 obj/drivers/base/src/interrupt.o
+ .data          0x0000000000000000        0x0 obj/drivers/base/src/interrupt.o
+ .bss           0x0000000000000000        0x0 obj/drivers/base/src/interrupt.o
+ .text.IRQ_Enable
+                0x0000000000000000        0x6 obj/drivers/base/src/interrupt.o
+ .text.IRQ_Disable
+                0x0000000000000000        0xa obj/drivers/base/src/interrupt.o
+ .text.IRQ_DisableN
+                0x0000000000000000       0x58 obj/drivers/base/src/interrupt.o
+ .text.IRQ_GetPriority
+                0x0000000000000000       0xac obj/drivers/base/src/interrupt.o
+ .text.IRQ_ClearAll
+                0x0000000000000000       0x16 obj/drivers/base/src/interrupt.o
+ .text.__riscv_case_uqi
+                0x0000000000000000       0x12 obj/drivers/base/src/interrupt.o
+ .text          0x0000000000000000        0x0 obj/drivers/base/src/lock.o
+ .data          0x0000000000000000        0x0 obj/drivers/base/src/lock.o
+ .bss           0x0000000000000000        0x0 obj/drivers/base/src/lock.o
+ .text.BASE_FUNC_SoftwareLock
+                0x0000000000000000       0x12 obj/drivers/base/src/lock.o
+ .text.BASE_FUNC_SoftwareUnLock
+                0x0000000000000000        0x8 obj/drivers/base/src/lock.o
+ .text.BASE_FUNC_HardwareLock
+                0x0000000000000000       0x1a obj/drivers/base/src/lock.o
+ .text.BASE_FUNC_HardwareUnLock
+                0x0000000000000000       0x18 obj/drivers/base/src/lock.o
+ .bss.g_baseLock
+                0x0000000000000000       0x20 obj/drivers/base/src/lock.o
+ .debug_info    0x0000000000000000      0x1a1 obj/drivers/base/src/lock.o
+ .debug_abbrev  0x0000000000000000      0x10f obj/drivers/base/src/lock.o
+ .debug_loc     0x0000000000000000       0xb3 obj/drivers/base/src/lock.o
+ .debug_aranges
+                0x0000000000000000       0x38 obj/drivers/base/src/lock.o
+ .debug_ranges  0x0000000000000000       0x28 obj/drivers/base/src/lock.o
+ .debug_line    0x0000000000000000      0x111 obj/drivers/base/src/lock.o
+ .debug_str     0x0000000000000000      0x558 obj/drivers/base/src/lock.o
+ .comment       0x0000000000000000       0x26 obj/drivers/base/src/lock.o
+ .debug_frame   0x0000000000000000       0x50 obj/drivers/base/src/lock.o
+ .text          0x0000000000000000        0x0 obj/drivers/base/src/reset.o
+ .data          0x0000000000000000        0x0 obj/drivers/base/src/reset.o
+ .bss           0x0000000000000000        0x0 obj/drivers/base/src/reset.o
+ .text.BASE_FUNC_SoftReset
+                0x0000000000000000       0x2a obj/drivers/base/src/reset.o
+ .debug_info    0x0000000000000000     0x1d88 obj/drivers/base/src/reset.o
+ .debug_abbrev  0x0000000000000000      0x1c7 obj/drivers/base/src/reset.o
+ .debug_loc     0x0000000000000000       0x2a obj/drivers/base/src/reset.o
+ .debug_aranges
+                0x0000000000000000       0x20 obj/drivers/base/src/reset.o
+ .debug_ranges  0x0000000000000000       0x10 obj/drivers/base/src/reset.o
+ .debug_line    0x0000000000000000       0xae obj/drivers/base/src/reset.o
+ .debug_str     0x0000000000000000     0x1256 obj/drivers/base/src/reset.o
+ .comment       0x0000000000000000       0x26 obj/drivers/base/src/reset.o
+ .debug_frame   0x0000000000000000       0x20 obj/drivers/base/src/reset.o
+ .text          0x0000000000000000        0x0 obj/drivers/can/src/can.o
+ .data          0x0000000000000000        0x0 obj/drivers/can/src/can.o
+ .bss           0x0000000000000000        0x0 obj/drivers/can/src/can.o
+ .text.IRQ_ClearN
+                0x0000000000000000        0xc obj/drivers/can/src/can.o
+ .text.HAL_CAN_IRQHandler
+                0x0000000000000000      0x1a0 obj/drivers/can/src/can.o
+ .text.HAL_CAN_Init
+                0x0000000000000000      0x16e obj/drivers/can/src/can.o
+ .text.HAL_CAN_DeInit
+                0x0000000000000000       0x16 obj/drivers/can/src/can.o
+ .text.HAL_CAN_GetState
+                0x0000000000000000        0x4 obj/drivers/can/src/can.o
+ .text.HAL_CAN_Write
+                0x0000000000000000       0xf0 obj/drivers/can/src/can.o
+ .text.HAL_CAN_ReadIT
+                0x0000000000000000       0xc6 obj/drivers/can/src/can.o
+ .text.HAL_CAN_IRQService
+                0x0000000000000000       0x12 obj/drivers/can/src/can.o
+ .text.HAL_CAN_RegisterCallBack
+                0x0000000000000000       0x18 obj/drivers/can/src/can.o
+ .bss.g_msgObj  0x0000000000000000       0x80 obj/drivers/can/src/can.o
+ .debug_info    0x0000000000000000     0x2083 obj/drivers/can/src/can.o
+ .debug_abbrev  0x0000000000000000      0x413 obj/drivers/can/src/can.o
+ .debug_loc     0x0000000000000000      0x862 obj/drivers/can/src/can.o
+ .debug_aranges
+                0x0000000000000000       0x60 obj/drivers/can/src/can.o
+ .debug_ranges  0x0000000000000000      0x100 obj/drivers/can/src/can.o
+ .debug_line    0x0000000000000000      0x720 obj/drivers/can/src/can.o
+ .debug_str     0x0000000000000000     0x1224 obj/drivers/can/src/can.o
+ .comment       0x0000000000000000       0x26 obj/drivers/can/src/can.o
+ .debug_frame   0x0000000000000000       0xe0 obj/drivers/can/src/can.o
+ .text          0x0000000000000000        0x0 obj/drivers/capm/src/capm.o
+ .data          0x0000000000000000        0x0 obj/drivers/capm/src/capm.o
+ .bss           0x0000000000000000        0x0 obj/drivers/capm/src/capm.o
+ .text.CAPM_DmaErrorIRQService
+                0x0000000000000000        0x8 obj/drivers/capm/src/capm.o
+ .text.CAPM_DmaFinishIRQService
+                0x0000000000000000        0x8 obj/drivers/capm/src/capm.o
+ .text.CAPM_EvtIRQService
+                0x0000000000000000       0x44 obj/drivers/capm/src/capm.o
+ .text.HAL_CAPM_Init
+                0x0000000000000000      0x22a obj/drivers/capm/src/capm.o
+ .text.HAL_CAPM_DeInit
+                0x0000000000000000       0x22 obj/drivers/capm/src/capm.o
+ .text.HAL_CAPM_GetECRValue
+                0x0000000000000000       0x2a obj/drivers/capm/src/capm.o
+ .text.HAL_CAPM_GetCrtEdge
+                0x0000000000000000        0xa obj/drivers/capm/src/capm.o
+ .text.HAL_CAPM_GetNextLoadECRNum
+                0x0000000000000000        0x8 obj/drivers/capm/src/capm.o
+ .text.HAL_CAPM_SetSyncPhs
+                0x0000000000000000        0x6 obj/drivers/capm/src/capm.o
+ .text.HAL_CAPM_GetSyncPhs
+                0x0000000000000000        0x6 obj/drivers/capm/src/capm.o
+ .text.HAL_CAPM_GetECRValueDMA
+                0x0000000000000000       0x42 obj/drivers/capm/src/capm.o
+ .debug_info    0x0000000000000000     0x2f61 obj/drivers/capm/src/capm.o
+ .debug_abbrev  0x0000000000000000      0x40b obj/drivers/capm/src/capm.o
+ .debug_loc     0x0000000000000000      0x9c7 obj/drivers/capm/src/capm.o
+ .debug_aranges
+                0x0000000000000000       0x70 obj/drivers/capm/src/capm.o
+ .debug_ranges  0x0000000000000000      0x280 obj/drivers/capm/src/capm.o
+ .debug_line    0x0000000000000000      0x61f obj/drivers/capm/src/capm.o
+ .debug_str     0x0000000000000000     0x21be obj/drivers/capm/src/capm.o
+ .comment       0x0000000000000000       0x26 obj/drivers/capm/src/capm.o
+ .debug_frame   0x0000000000000000       0xfc obj/drivers/capm/src/capm.o
+ .text          0x0000000000000000        0x0 obj/drivers/cfd/src/cfd.o
+ .data          0x0000000000000000        0x0 obj/drivers/cfd/src/cfd.o
+ .bss           0x0000000000000000        0x0 obj/drivers/cfd/src/cfd.o
+ .text.HAL_CFD_IRQHandler
+                0x0000000000000000       0x46 obj/drivers/cfd/src/cfd.o
+ .text.CFD_RspInit
+                0x0000000000000000        0x4 obj/drivers/cfd/src/cfd.o
+ .text.CFD_RspDeInit
+                0x0000000000000000        0x8 obj/drivers/cfd/src/cfd.o
+ .text.HAL_CFD_Init
+                0x0000000000000000       0x1a obj/drivers/cfd/src/cfd.o
+ .text.HAL_CFD_DeInit
+                0x0000000000000000       0x14 obj/drivers/cfd/src/cfd.o
+ .text.HAL_CFD_Config
+                0x0000000000000000       0x26 obj/drivers/cfd/src/cfd.o
+ .text.HAL_CFD_GetConfig
+                0x0000000000000000        0xc obj/drivers/cfd/src/cfd.o
+ .text.HAL_CFD_Start
+                0x0000000000000000        0xc obj/drivers/cfd/src/cfd.o
+ .text.HAL_CFD_Stop
+                0x0000000000000000        0xa obj/drivers/cfd/src/cfd.o
+ .text.HAL_CFD_RegisterCallback
+                0x0000000000000000       0x16 obj/drivers/cfd/src/cfd.o
+ .text.HAL_CFD_IRQService
+                0x0000000000000000       0x12 obj/drivers/cfd/src/cfd.o
+ .debug_info    0x0000000000000000      0x752 obj/drivers/cfd/src/cfd.o
+ .debug_abbrev  0x0000000000000000      0x1bf obj/drivers/cfd/src/cfd.o
+ .debug_loc     0x0000000000000000      0x179 obj/drivers/cfd/src/cfd.o
+ .debug_aranges
+                0x0000000000000000       0x68 obj/drivers/cfd/src/cfd.o
+ .debug_ranges  0x0000000000000000       0x58 obj/drivers/cfd/src/cfd.o
+ .debug_line    0x0000000000000000      0x26c obj/drivers/cfd/src/cfd.o
+ .debug_str     0x0000000000000000      0x7e7 obj/drivers/cfd/src/cfd.o
+ .comment       0x0000000000000000       0x26 obj/drivers/cfd/src/cfd.o
+ .debug_frame   0x0000000000000000       0xd0 obj/drivers/cfd/src/cfd.o
+ .text          0x0000000000000000        0x0 obj/drivers/cmm/src/cmm.o
+ .data          0x0000000000000000        0x0 obj/drivers/cmm/src/cmm.o
+ .bss           0x0000000000000000        0x0 obj/drivers/cmm/src/cmm.o
+ .text.HAL_CMM_IRQHandler
+                0x0000000000000000       0x62 obj/drivers/cmm/src/cmm.o
+ .text.CMM_RspInit
+                0x0000000000000000        0x4 obj/drivers/cmm/src/cmm.o
+ .text.CMM_RspDeInit
+                0x0000000000000000        0x8 obj/drivers/cmm/src/cmm.o
+ .text.HAL_CMM_Init
+                0x0000000000000000       0x90 obj/drivers/cmm/src/cmm.o
+ .text.HAL_CMM_DeInit
+                0x0000000000000000       0x1a obj/drivers/cmm/src/cmm.o
+ .text.HAL_CMM_Config
+                0x0000000000000000       0x9e obj/drivers/cmm/src/cmm.o
+ .text.HAL_CMM_GetConfig
+                0x0000000000000000       0x30 obj/drivers/cmm/src/cmm.o
+ .text.HAL_CMM_Start
+                0x0000000000000000        0xc obj/drivers/cmm/src/cmm.o
+ .text.HAL_CMM_Stop
+                0x0000000000000000        0xa obj/drivers/cmm/src/cmm.o
+ .text.HAL_CMM_RegisterCallback
+                0x0000000000000000       0x1e obj/drivers/cmm/src/cmm.o
+ .text.HAL_CMM_IRQService
+                0x0000000000000000       0x12 obj/drivers/cmm/src/cmm.o
+ .text.__riscv_case_uqi
+                0x0000000000000000       0x12 obj/drivers/cmm/src/cmm.o
+ .debug_info    0x0000000000000000      0xa8d obj/drivers/cmm/src/cmm.o
+ .debug_abbrev  0x0000000000000000      0x215 obj/drivers/cmm/src/cmm.o
+ .debug_loc     0x0000000000000000      0x249 obj/drivers/cmm/src/cmm.o
+ .debug_aranges
+                0x0000000000000000       0x68 obj/drivers/cmm/src/cmm.o
+ .debug_ranges  0x0000000000000000       0x58 obj/drivers/cmm/src/cmm.o
+ .debug_line    0x0000000000000000      0x31a obj/drivers/cmm/src/cmm.o
+ .debug_str     0x0000000000000000      0xc04 obj/drivers/cmm/src/cmm.o
+ .comment       0x0000000000000000       0x26 obj/drivers/cmm/src/cmm.o
+ .debug_frame   0x0000000000000000       0xec obj/drivers/cmm/src/cmm.o
+ .text          0x0000000000000000        0x0 obj/drivers/crc/src/crc.o
+ .data          0x0000000000000000        0x0 obj/drivers/crc/src/crc.o
+ .bss           0x0000000000000000        0x0 obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_IRQHandler
+                0x0000000000000000       0x2a obj/drivers/crc/src/crc.o
+ .text.CRC_RspInit
+                0x0000000000000000        0x2 obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_Init
+                0x0000000000000000       0x8c obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_DeInit
+                0x0000000000000000       0x2a obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_SetInputDataGetCheck
+                0x0000000000000000       0x18 obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_Accumulate
+                0x0000000000000000      0x106 obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_Calculate
+                0x0000000000000000       0x28 obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_CheckInputData
+                0x0000000000000000       0x14 obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_SetCheckInData
+                0x0000000000000000        0x6 obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_LoadCheckInData
+                0x0000000000000000        0xe obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_RegisterCallback
+                0x0000000000000000        0x4 obj/drivers/crc/src/crc.o
+ .text.HAL_CRC_IRQService
+                0x0000000000000000       0x12 obj/drivers/crc/src/crc.o
+ .debug_info    0x0000000000000000      0xc97 obj/drivers/crc/src/crc.o
+ .debug_abbrev  0x0000000000000000      0x2c9 obj/drivers/crc/src/crc.o
+ .debug_loc     0x0000000000000000      0x687 obj/drivers/crc/src/crc.o
+ .debug_aranges
+                0x0000000000000000       0x78 obj/drivers/crc/src/crc.o
+ .debug_ranges  0x0000000000000000       0xc8 obj/drivers/crc/src/crc.o
+ .debug_line    0x0000000000000000      0x48c obj/drivers/crc/src/crc.o
+ .debug_str     0x0000000000000000      0x9ac obj/drivers/crc/src/crc.o
+ .comment       0x0000000000000000       0x26 obj/drivers/crc/src/crc.o
+ .debug_frame   0x0000000000000000       0xf8 obj/drivers/crc/src/crc.o
+ .text          0x0000000000000000        0x0 obj/drivers/crg/src/crg.o
+ .data          0x0000000000000000        0x0 obj/drivers/crg/src/crg.o
+ .bss           0x0000000000000000        0x0 obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_InitWithTargetFrequence
+                0x0000000000000000       0xc4 obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_DeInit
+                0x0000000000000000       0x52 obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_GetConfig
+                0x0000000000000000       0x32 obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_IpEnableGet
+                0x0000000000000000       0x30 obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_IpClkSelectGet
+                0x0000000000000000       0x30 obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_IpClkResetSet
+                0x0000000000000000       0x30 obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_IpClkResetGet
+                0x0000000000000000       0x30 obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_IpClkDivGet
+                0x0000000000000000       0x30 obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_PvdResetEnable
+                0x0000000000000000       0x18 obj/drivers/crg/src/crg.o
+ .text.__riscv_case_uqi
+                0x0000000000000000       0x12 obj/drivers/crg/src/crg.o
+ .text          0x0000000000000000        0x0 obj/drivers/dac/src/dac.o
+ .data          0x0000000000000000        0x0 obj/drivers/dac/src/dac.o
+ .bss           0x0000000000000000        0x0 obj/drivers/dac/src/dac.o
+ .text.HAL_DAC_SetValue
+                0x0000000000000000       0x10 obj/drivers/dac/src/dac.o
+ .text.HAL_DAC_Init
+                0x0000000000000000       0x30 obj/drivers/dac/src/dac.o
+ .text.HAL_DAC_DeInit
+                0x0000000000000000        0xe obj/drivers/dac/src/dac.o
+ .debug_info    0x0000000000000000      0x268 obj/drivers/dac/src/dac.o
+ .debug_abbrev  0x0000000000000000      0x10d obj/drivers/dac/src/dac.o
+ .debug_loc     0x0000000000000000       0x63 obj/drivers/dac/src/dac.o
+ .debug_aranges
+                0x0000000000000000       0x30 obj/drivers/dac/src/dac.o
+ .debug_ranges  0x0000000000000000       0x20 obj/drivers/dac/src/dac.o
+ .debug_line    0x0000000000000000      0x11c obj/drivers/dac/src/dac.o
+ .debug_str     0x0000000000000000      0x576 obj/drivers/dac/src/dac.o
+ .comment       0x0000000000000000       0x26 obj/drivers/dac/src/dac.o
+ .debug_frame   0x0000000000000000       0x40 obj/drivers/dac/src/dac.o
+ .text          0x0000000000000000        0x0 obj/drivers/debug/src/debug.o
+ .data          0x0000000000000000        0x0 obj/drivers/debug/src/debug.o
+ .bss           0x0000000000000000        0x0 obj/drivers/debug/src/debug.o
+ .debug_info    0x0000000000000000       0x4f obj/drivers/debug/src/debug.o
+ .debug_abbrev  0x0000000000000000       0x26 obj/drivers/debug/src/debug.o
+ .debug_aranges
+                0x0000000000000000       0x18 obj/drivers/debug/src/debug.o
+ .debug_line    0x0000000000000000       0x1d obj/drivers/debug/src/debug.o
+ .debug_str     0x0000000000000000      0x418 obj/drivers/debug/src/debug.o
+ .comment       0x0000000000000000       0x26 obj/drivers/debug/src/debug.o
+ .text          0x0000000000000000        0x0 obj/drivers/dma/src/dma.o
+ .data          0x0000000000000000        0x0 obj/drivers/dma/src/dma.o
+ .bss           0x0000000000000000        0x0 obj/drivers/dma/src/dma.o
+ .text.DMA_SetSrcPeriph
+                0x0000000000000000       0x48 obj/drivers/dma/src/dma.o
+ .text.DMA_SetDestPeriph
+                0x0000000000000000       0x4c obj/drivers/dma/src/dma.o
+ .text.DMA_SetDirection
+                0x0000000000000000       0x5c obj/drivers/dma/src/dma.o
+ .text.DMA_CalControlval
+                0x0000000000000000       0x2e obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_IRQHandler
+                0x0000000000000000       0x72 obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_Init
+                0x0000000000000000       0x72 obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_Deinit
+                0x0000000000000000       0x50 obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_GetChannelState
+                0x0000000000000000       0x18 obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_InitChannel
+                0x0000000000000000       0x32 obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_StopChannel
+                0x0000000000000000       0x24 obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_IRQService
+                0x0000000000000000       0x2a obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_RegisterCallback
+                0x0000000000000000       0x1c obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_ListAddNode
+                0x0000000000000000       0x22 obj/drivers/dma/src/dma.o
+ .text.DMA_CreateNode
+                0x0000000000000000       0x5a obj/drivers/dma/src/dma.o
+ .text.DMA_SplitToBlock
+                0x0000000000000000       0x50 obj/drivers/dma/src/dma.o
+ .text.DMA_SetChannelAndDirection
+                0x0000000000000000       0xd2 obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_Start
+                0x0000000000000000       0x3c obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_StartIT
+                0x0000000000000000       0x34 obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_InitNewNode
+                0x0000000000000000       0x6e obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_StartListTransfer
+                0x0000000000000000       0x56 obj/drivers/dma/src/dma.o
+ .text.HAL_DMA_QuickStart
+                0x0000000000000000       0x18 obj/drivers/dma/src/dma.o
+ .text.__riscv_case_uqi
+                0x0000000000000000       0x12 obj/drivers/dma/src/dma.o
+ .bss.g_listIndex
+                0x0000000000000000        0x4 obj/drivers/dma/src/dma.o
+ .bss.g_listTable
+                0x0000000000000000      0x140 obj/drivers/dma/src/dma.o
+ .rodata.g_periphReqTable
+                0x0000000000000000      0x15c obj/drivers/dma/src/dma.o
+ .debug_info    0x0000000000000000     0x2a40 obj/drivers/dma/src/dma.o
+ .debug_abbrev  0x0000000000000000      0x446 obj/drivers/dma/src/dma.o
+ .debug_loc     0x0000000000000000      0xd5c obj/drivers/dma/src/dma.o
+ .debug_aranges
+                0x0000000000000000       0xc0 obj/drivers/dma/src/dma.o
+ .debug_ranges  0x0000000000000000      0x120 obj/drivers/dma/src/dma.o
+ .debug_line    0x0000000000000000      0x917 obj/drivers/dma/src/dma.o
+ .debug_str     0x0000000000000000     0x1eb1 obj/drivers/dma/src/dma.o
+ .comment       0x0000000000000000       0x26 obj/drivers/dma/src/dma.o
+ .debug_frame   0x0000000000000000      0x25c obj/drivers/dma/src/dma.o
+ .text          0x0000000000000000        0x0 obj/drivers/flash/src/flash.o
+ .data          0x0000000000000000        0x0 obj/drivers/flash/src/flash.o
+ .bss           0x0000000000000000        0x0 obj/drivers/flash/src/flash.o
+ .text.FLASH_WriteWords
+                0x0000000000000000       0xce obj/drivers/flash/src/flash.o
+ .text.FLASH_EraseWithMode
+                0x0000000000000000       0x7c obj/drivers/flash/src/flash.o
+ .text.FLASH_WriteHandler
+                0x0000000000000000       0x68 obj/drivers/flash/src/flash.o
+ .text.FLASH_EraseHandler
+                0x0000000000000000       0x24 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_ErrIRQHandler
+                0x0000000000000000       0x40 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_IRQHandler
+                0x0000000000000000       0x86 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_Init
+                0x0000000000000000       0x46 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_DeInit
+                0x0000000000000000       0x28 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_RegisterCallback
+                0x0000000000000000        0x6 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_WriteBlocking
+                0x0000000000000000       0xa4 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_EraseBlocking
+                0x0000000000000000       0x54 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_WriteIT
+                0x0000000000000000       0x62 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_EraseIT
+                0x0000000000000000       0x44 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_Read
+                0x0000000000000000       0x22 obj/drivers/flash/src/flash.o
+ .text.HAL_FLASH_IRQService
+                0x0000000000000000       0x2a obj/drivers/flash/src/flash.o
+ .debug_info    0x0000000000000000     0x17a0 obj/drivers/flash/src/flash.o
+ .debug_abbrev  0x0000000000000000      0x3b6 obj/drivers/flash/src/flash.o
+ .debug_loc     0x0000000000000000      0xbb4 obj/drivers/flash/src/flash.o
+ .debug_aranges
+                0x0000000000000000       0x90 obj/drivers/flash/src/flash.o
+ .debug_ranges  0x0000000000000000       0xe8 obj/drivers/flash/src/flash.o
+ .debug_line    0x0000000000000000      0x7ae obj/drivers/flash/src/flash.o
+ .debug_str     0x0000000000000000     0x1199 obj/drivers/flash/src/flash.o
+ .comment       0x0000000000000000       0x26 obj/drivers/flash/src/flash.o
+ .debug_frame   0x0000000000000000      0x1b8 obj/drivers/flash/src/flash.o
+ .text          0x0000000000000000        0x0 obj/drivers/gpio/src/gpio.o
+ .data          0x0000000000000000        0x0 obj/drivers/gpio/src/gpio.o
+ .bss           0x0000000000000000        0x0 obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_IRQHandler
+                0x0000000000000000       0x62 obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_SetDirection
+                0x0000000000000000       0x20 obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_SetValue
+                0x0000000000000000       0x12 obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_GetPinValue
+                0x0000000000000000        0xe obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_GetAllValue
+                0x0000000000000000        0xa obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_GetPinDirection
+                0x0000000000000000        0xe obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_GetAllDirection
+                0x0000000000000000        0xa obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_TogglePin
+                0x0000000000000000        0xe obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_GetPinIrqType
+                0x0000000000000000       0x34 obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_DeInit
+                0x0000000000000000       0x28 obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_RegisterCallBack
+                0x0000000000000000       0x18 obj/drivers/gpio/src/gpio.o
+ .text.HAL_GPIO_IRQService
+                0x0000000000000000       0x12 obj/drivers/gpio/src/gpio.o
+ .text          0x0000000000000000        0x0 obj/drivers/gpt/src/gpt.o
+ .data          0x0000000000000000        0x0 obj/drivers/gpt/src/gpt.o
+ .bss           0x0000000000000000        0x0 obj/drivers/gpt/src/gpt.o
+ .text.HAL_GPT_Start
+                0x0000000000000000        0xc obj/drivers/gpt/src/gpt.o
+ .text.HAL_GPT_Stop
+                0x0000000000000000        0xa obj/drivers/gpt/src/gpt.o
+ .text.HAL_GPT_RspInit
+                0x0000000000000000        0x4 obj/drivers/gpt/src/gpt.o
+ .text.HAL_GPT_Config
+                0x0000000000000000       0xa4 obj/drivers/gpt/src/gpt.o
+ .text.HAL_GPT_Init
+                0x0000000000000000       0x26 obj/drivers/gpt/src/gpt.o
+ .text.HAL_GPT_GetConfig
+                0x0000000000000000       0x76 obj/drivers/gpt/src/gpt.o
+ .debug_info    0x0000000000000000      0x477 obj/drivers/gpt/src/gpt.o
+ .debug_abbrev  0x0000000000000000      0x1c0 obj/drivers/gpt/src/gpt.o
+ .debug_loc     0x0000000000000000      0x185 obj/drivers/gpt/src/gpt.o
+ .debug_aranges
+                0x0000000000000000       0x48 obj/drivers/gpt/src/gpt.o
+ .debug_ranges  0x0000000000000000       0x38 obj/drivers/gpt/src/gpt.o
+ .debug_line    0x0000000000000000      0x28f obj/drivers/gpt/src/gpt.o
+ .debug_str     0x0000000000000000      0x649 obj/drivers/gpt/src/gpt.o
+ .comment       0x0000000000000000       0x26 obj/drivers/gpt/src/gpt.o
+ .debug_frame   0x0000000000000000       0xb4 obj/drivers/gpt/src/gpt.o
+ .text          0x0000000000000000        0x0 obj/drivers/i2c/src/i2c.o
+ .data          0x0000000000000000        0x0 obj/drivers/i2c/src/i2c.o
+ .bss           0x0000000000000000        0x0 obj/drivers/i2c/src/i2c.o
+ .text.SetDevAddr
+                0x0000000000000000       0x18 obj/drivers/i2c/src/i2c.o
+ .text.SetErrorHandling
+                0x0000000000000000       0x24 obj/drivers/i2c/src/i2c.o
+ .text.DMAFinishFun
+                0x0000000000000000       0x70 obj/drivers/i2c/src/i2c.o
+ .text.DmaErrorHandlerFun
+                0x0000000000000000       0x30 obj/drivers/i2c/src/i2c.o
+ .text.ConfigDmaChannelParam
+                0x0000000000000000       0x40 obj/drivers/i2c/src/i2c.o
+ .text.I2cRescue.isra.2
+                0x0000000000000000       0xa4 obj/drivers/i2c/src/i2c.o
+ .text.WaitIdle
+                0x0000000000000000       0x8c obj/drivers/i2c/src/i2c.o
+ .text.WaitSendComplete
+                0x0000000000000000       0x1e obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_IRQHandler
+                0x0000000000000000      0x124 obj/drivers/i2c/src/i2c.o
+ .text.SetWriteAddressCmd
+                0x0000000000000000       0x94 obj/drivers/i2c/src/i2c.o
+ .text.ConfigStandardWriteCmd
+                0x0000000000000000       0x9c obj/drivers/i2c/src/i2c.o
+ .text.ConfigStandardReadCmd
+                0x0000000000000000       0xa0 obj/drivers/i2c/src/i2c.o
+ .text.I2C_RspInit
+                0x0000000000000000        0x2 obj/drivers/i2c/src/i2c.o
+ .text.I2C_RspDeInit
+                0x0000000000000000        0x2 obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_Deinit
+                0x0000000000000000       0x2c obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_ConfigParameter
+                0x0000000000000000       0xca obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_Init
+                0x0000000000000000       0x18 obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_MasterReadBlocking
+                0x0000000000000000      0x11a obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_MasterWriteBlocking
+                0x0000000000000000      0x148 obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_MasterReadIT
+                0x0000000000000000       0x7c obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_MasterWriteIT
+                0x0000000000000000       0x76 obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_MasterReadDMA
+                0x0000000000000000       0xb6 obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_MasterWriteDMA
+                0x0000000000000000       0xb2 obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_RegisterCallback
+                0x0000000000000000       0x28 obj/drivers/i2c/src/i2c.o
+ .text.HAL_I2C_IRQService
+                0x0000000000000000       0x12 obj/drivers/i2c/src/i2c.o
+ .debug_info    0x0000000000000000     0x33a2 obj/drivers/i2c/src/i2c.o
+ .debug_abbrev  0x0000000000000000      0x4af obj/drivers/i2c/src/i2c.o
+ .debug_loc     0x0000000000000000     0x1327 obj/drivers/i2c/src/i2c.o
+ .debug_aranges
+                0x0000000000000000       0xd8 obj/drivers/i2c/src/i2c.o
+ .debug_ranges  0x0000000000000000      0x270 obj/drivers/i2c/src/i2c.o
+ .debug_line    0x0000000000000000      0xdfa obj/drivers/i2c/src/i2c.o
+ .debug_str     0x0000000000000000     0x2112 obj/drivers/i2c/src/i2c.o
+ .comment       0x0000000000000000       0x26 obj/drivers/i2c/src/i2c.o
+ .debug_frame   0x0000000000000000      0x300 obj/drivers/i2c/src/i2c.o
+ .text          0x0000000000000000        0x0 obj/drivers/iocmg/src/iocmg.o
+ .data          0x0000000000000000        0x0 obj/drivers/iocmg/src/iocmg.o
+ .bss           0x0000000000000000        0x0 obj/drivers/iocmg/src/iocmg.o
+ .text.IOCMG_GetRegAddr
+                0x0000000000000000       0x2e obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_Init
+                0x0000000000000000       0x5e obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_SetPinAltFuncMode
+                0x0000000000000000       0x34 obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_GetPinAltFuncMode
+                0x0000000000000000       0x2c obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_SetPinPullMode
+                0x0000000000000000       0x44 obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_GetPinPullMode
+                0x0000000000000000       0x36 obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_SetPinSchmidtMode
+                0x0000000000000000       0x3c obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_GetPinSchmidtMode
+                0x0000000000000000       0x2e obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_SetPinLevelShiftRate
+                0x0000000000000000       0x3c obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_GetPinLevelShiftRate
+                0x0000000000000000       0x2e obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_SetPinDriveRate
+                0x0000000000000000       0x3c obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_GetPinDriveRate
+                0x0000000000000000       0x2e obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_SetOscClkOutputMode
+                0x0000000000000000       0x18 obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_GetOscClkOutputMode
+                0x0000000000000000        0xc obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_SetOscClkFuncMode
+                0x0000000000000000       0x18 obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_GetOscClkFuncMode
+                0x0000000000000000        0xc obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_SetOscClkDriveRate
+                0x0000000000000000       0x18 obj/drivers/iocmg/src/iocmg.o
+ .text.HAL_IOCMG_GetOscClkDriveRate
+                0x0000000000000000        0xc obj/drivers/iocmg/src/iocmg.o
+ .debug_info    0x0000000000000000     0x100c obj/drivers/iocmg/src/iocmg.o
+ .debug_abbrev  0x0000000000000000      0x281 obj/drivers/iocmg/src/iocmg.o
+ .debug_loc     0x0000000000000000      0x6bf obj/drivers/iocmg/src/iocmg.o
+ .debug_aranges
+                0x0000000000000000       0xa8 obj/drivers/iocmg/src/iocmg.o
+ .debug_ranges  0x0000000000000000       0xe0 obj/drivers/iocmg/src/iocmg.o
+ .debug_line    0x0000000000000000      0x670 obj/drivers/iocmg/src/iocmg.o
+ .debug_str     0x0000000000000000      0xdad obj/drivers/iocmg/src/iocmg.o
+ .comment       0x0000000000000000       0x26 obj/drivers/iocmg/src/iocmg.o
+ .debug_frame   0x0000000000000000      0x1bc obj/drivers/iocmg/src/iocmg.o
+ .text          0x0000000000000000        0x0 obj/drivers/pga/src/pga.o
+ .data          0x0000000000000000        0x0 obj/drivers/pga/src/pga.o
+ .bss           0x0000000000000000        0x0 obj/drivers/pga/src/pga.o
+ .text.HAL_PGA_DeInit
+                0x0000000000000000       0x12 obj/drivers/pga/src/pga.o
+ .text.HAL_PGA_SetGain
+                0x0000000000000000       0x12 obj/drivers/pga/src/pga.o
+ .text          0x0000000000000000        0x0 obj/drivers/pmc/src/pmc.o
+ .data          0x0000000000000000        0x0 obj/drivers/pmc/src/pmc.o
+ .bss           0x0000000000000000        0x0 obj/drivers/pmc/src/pmc.o
+ .text.HAL_PMC_IRQHandler
+                0x0000000000000000       0x22 obj/drivers/pmc/src/pmc.o
+ .text.HAL_PMC_Init
+                0x0000000000000000       0x74 obj/drivers/pmc/src/pmc.o
+ .text.HAL_PMC_DeInit
+                0x0000000000000000       0x1c obj/drivers/pmc/src/pmc.o
+ .text.HAL_PMC_EnterSleepMode
+                0x0000000000000000        0x6 obj/drivers/pmc/src/pmc.o
+ .text.HAL_PMC_EnterDeepSleepMode
+                0x0000000000000000       0x10 obj/drivers/pmc/src/pmc.o
+ .text.HAL_PMC_EnterShutdownMode
+                0x0000000000000000       0x10 obj/drivers/pmc/src/pmc.o
+ .text.HAL_PMC_GetWakeupType
+                0x0000000000000000       0x1c obj/drivers/pmc/src/pmc.o
+ .text.HAL_PMC_IRQService
+                0x0000000000000000       0x12 obj/drivers/pmc/src/pmc.o
+ .text.HAL_PMC_RegisterCallback
+                0x0000000000000000        0x4 obj/drivers/pmc/src/pmc.o
+ .debug_info    0x0000000000000000      0x874 obj/drivers/pmc/src/pmc.o
+ .debug_abbrev  0x0000000000000000      0x222 obj/drivers/pmc/src/pmc.o
+ .debug_loc     0x0000000000000000      0x13d obj/drivers/pmc/src/pmc.o
+ .debug_aranges
+                0x0000000000000000       0x60 obj/drivers/pmc/src/pmc.o
+ .debug_ranges  0x0000000000000000       0x80 obj/drivers/pmc/src/pmc.o
+ .debug_line    0x0000000000000000      0x273 obj/drivers/pmc/src/pmc.o
+ .debug_str     0x0000000000000000      0x9f8 obj/drivers/pmc/src/pmc.o
+ .comment       0x0000000000000000       0x26 obj/drivers/pmc/src/pmc.o
+ .debug_frame   0x0000000000000000       0xa0 obj/drivers/pmc/src/pmc.o
+ .text          0x0000000000000000        0x0 obj/drivers/qdm/src/qdm.o
+ .data          0x0000000000000000        0x0 obj/drivers/qdm/src/qdm.o
+ .bss           0x0000000000000000        0x0 obj/drivers/qdm/src/qdm.o
+ .text.HAL_QDM_IRQHandler
+                0x0000000000000000      0x116 obj/drivers/qdm/src/qdm.o
+ .text.HAL_QDM_RegisterCallback
+                0x0000000000000000       0x4e obj/drivers/qdm/src/qdm.o
+ .text.HAL_QDM_IRQService
+                0x0000000000000000       0x12 obj/drivers/qdm/src/qdm.o
+ .text.HAL_QDM_Init
+                0x0000000000000000      0x17c obj/drivers/qdm/src/qdm.o
+ .text.HAL_QDM_DeInit
+                0x0000000000000000       0x22 obj/drivers/qdm/src/qdm.o
+ .text.HAL_QDM_ReadPosCountAndDir
+                0x0000000000000000       0x12 obj/drivers/qdm/src/qdm.o
+ .text.HAL_QDM_GetPhaseErrorStatus
+                0x0000000000000000        0xc obj/drivers/qdm/src/qdm.o
+ .text.HAL_QDM_GetSpeedRpmM
+                0x0000000000000000        0x4 obj/drivers/qdm/src/qdm.o
+ .text.HAL_QDM_GetSpeedRpmMT
+                0x0000000000000000       0x74 obj/drivers/qdm/src/qdm.o
+ .text.__riscv_case_uqi
+                0x0000000000000000       0x12 obj/drivers/qdm/src/qdm.o
+ .debug_info    0x0000000000000000     0x1756 obj/drivers/qdm/src/qdm.o
+ .debug_abbrev  0x0000000000000000      0x297 obj/drivers/qdm/src/qdm.o
+ .debug_loc     0x0000000000000000      0x47f obj/drivers/qdm/src/qdm.o
+ .debug_aranges
+                0x0000000000000000       0x60 obj/drivers/qdm/src/qdm.o
+ .debug_ranges  0x0000000000000000       0xc8 obj/drivers/qdm/src/qdm.o
+ .debug_line    0x0000000000000000      0x49e obj/drivers/qdm/src/qdm.o
+ .debug_str     0x0000000000000000     0x1669 obj/drivers/qdm/src/qdm.o
+ .comment       0x0000000000000000       0x26 obj/drivers/qdm/src/qdm.o
+ .debug_frame   0x0000000000000000       0xe8 obj/drivers/qdm/src/qdm.o
+ .text          0x0000000000000000        0x0 obj/drivers/spi/src/spi.o
+ .data          0x0000000000000000        0x0 obj/drivers/spi/src/spi.o
+ .bss           0x0000000000000000        0x0 obj/drivers/spi/src/spi.o
+ .text.SpiCsControl
+                0x0000000000000000       0x10 obj/drivers/spi/src/spi.o
+ .text.ReadWriteInterruptEnable
+                0x0000000000000000       0x26 obj/drivers/spi/src/spi.o
+ .text.ConfigTransmissionParameter
+                0x0000000000000000       0x26 obj/drivers/spi/src/spi.o
+ .text.ReadDmaFinishFun
+                0x0000000000000000       0x3a obj/drivers/spi/src/spi.o
+ .text.WriteDmaFinishFun
+                0x0000000000000000       0x2c obj/drivers/spi/src/spi.o
+ .text.DmaErrorFun
+                0x0000000000000000       0x16 obj/drivers/spi/src/spi.o
+ .text.EnableDma
+                0x0000000000000000       0x2c obj/drivers/spi/src/spi.o
+ .text.SetDmaCallBack
+                0x0000000000000000       0x42 obj/drivers/spi/src/spi.o
+ .text.ReadWriteData
+                0x0000000000000000      0x14a obj/drivers/spi/src/spi.o
+ .text.ReadWriteBlocking
+                0x0000000000000000       0xa0 obj/drivers/spi/src/spi.o
+ .text.ConfigDmaChannelParam
+                0x0000000000000000       0x68 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_IRQHandler
+                0x0000000000000000       0x94 obj/drivers/spi/src/spi.o
+ .text.SPI_RspInit
+                0x0000000000000000        0x2 obj/drivers/spi/src/spi.o
+ .text.SPI_RspDeInit
+                0x0000000000000000        0x2 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_Init
+                0x0000000000000000      0x166 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_Deinit
+                0x0000000000000000       0x3a obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_ConfigParameter
+                0x0000000000000000      0x112 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_RegisterCallback
+                0x0000000000000000       0x40 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_ReadBlocking
+                0x0000000000000000       0x3e obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_WriteBlocking
+                0x0000000000000000       0x40 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_WriteReadBlocking
+                0x0000000000000000       0x38 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_ReadIT
+                0x0000000000000000       0x22 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_WriteIT
+                0x0000000000000000       0x24 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_WriteReadIT
+                0x0000000000000000       0x1e obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_ReadDMA
+                0x0000000000000000       0x68 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_WriteDMA
+                0x0000000000000000       0x6a obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_WriteReadDMA
+                0x0000000000000000       0x60 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_DMAStop
+                0x0000000000000000       0x22 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_ChipSelectChannelSet
+                0x0000000000000000       0x14 obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_ChipSelectChannelGet
+                0x0000000000000000        0xe obj/drivers/spi/src/spi.o
+ .text.HAL_SPI_IRQService
+                0x0000000000000000       0x12 obj/drivers/spi/src/spi.o
+ .text.__riscv_case_uqi
+                0x0000000000000000       0x12 obj/drivers/spi/src/spi.o
+ .bss.readVal.3020
+                0x0000000000000000        0x2 obj/drivers/spi/src/spi.o
+ .bss.writeVal.3013
+                0x0000000000000000        0x2 obj/drivers/spi/src/spi.o
+ .debug_info    0x0000000000000000     0x28c7 obj/drivers/spi/src/spi.o
+ .debug_abbrev  0x0000000000000000      0x3d2 obj/drivers/spi/src/spi.o
+ .debug_loc     0x0000000000000000      0xe7a obj/drivers/spi/src/spi.o
+ .debug_aranges
+                0x0000000000000000      0x108 obj/drivers/spi/src/spi.o
+ .debug_ranges  0x0000000000000000      0x128 obj/drivers/spi/src/spi.o
+ .debug_line    0x0000000000000000      0xdab obj/drivers/spi/src/spi.o
+ .debug_str     0x0000000000000000     0x1c73 obj/drivers/spi/src/spi.o
+ .comment       0x0000000000000000       0x26 obj/drivers/spi/src/spi.o
+ .debug_frame   0x0000000000000000      0x3b0 obj/drivers/spi/src/spi.o
+ .text          0x0000000000000000        0x0 obj/drivers/timer/src/timer.o
+ .data          0x0000000000000000        0x0 obj/drivers/timer/src/timer.o
+ .bss           0x0000000000000000        0x0 obj/drivers/timer/src/timer.o
+ .text.HAL_TIMER_Config
+                0x0000000000000000       0xca obj/drivers/timer/src/timer.o
+ .text.HAL_TIMER_GetConfig
+                0x0000000000000000       0x56 obj/drivers/timer/src/timer.o
+ .text.HAL_TIMER_Stop
+                0x0000000000000000       0x10 obj/drivers/timer/src/timer.o
+ .text.HAL_TIMER_UnRegisterCallback
+                0x0000000000000000       0x14 obj/drivers/timer/src/timer.o
+ .text.HAL_TIMER_DeInit
+                0x0000000000000000       0x38 obj/drivers/timer/src/timer.o
+ .text          0x0000000000000000        0x0 obj/drivers/tsensor/src/tsensor.o
+ .data          0x0000000000000000        0x0 obj/drivers/tsensor/src/tsensor.o
+ .bss           0x0000000000000000        0x0 obj/drivers/tsensor/src/tsensor.o
+ .text.HAL_TSENSOR_Init
+                0x0000000000000000       0x96 obj/drivers/tsensor/src/tsensor.o
+ .text.HAL_TSENSOR_Deinit
+                0x0000000000000000        0xc obj/drivers/tsensor/src/tsensor.o
+ .text.HAL_TSENSOR_GetResult
+                0x0000000000000000       0x5e obj/drivers/tsensor/src/tsensor.o
+ .text.HAL_TSENSOR_GetTemperature
+                0x0000000000000000       0x40 obj/drivers/tsensor/src/tsensor.o
+ .rodata.HAL_TSENSOR_GetTemperature.cst4
+                0x0000000000000000        0x8 obj/drivers/tsensor/src/tsensor.o
+ .debug_info    0x0000000000000000     0x4303 obj/drivers/tsensor/src/tsensor.o
+ .debug_abbrev  0x0000000000000000      0x397 obj/drivers/tsensor/src/tsensor.o
+ .debug_loc     0x0000000000000000      0x114 obj/drivers/tsensor/src/tsensor.o
+ .debug_aranges
+                0x0000000000000000       0x38 obj/drivers/tsensor/src/tsensor.o
+ .debug_ranges  0x0000000000000000       0x58 obj/drivers/tsensor/src/tsensor.o
+ .debug_line    0x0000000000000000      0x343 obj/drivers/tsensor/src/tsensor.o
+ .debug_str     0x0000000000000000     0x348b obj/drivers/tsensor/src/tsensor.o
+ .comment       0x0000000000000000       0x26 obj/drivers/tsensor/src/tsensor.o
+ .debug_frame   0x0000000000000000       0x84 obj/drivers/tsensor/src/tsensor.o
+ .text          0x0000000000000000        0x0 obj/drivers/tsensor/src/tsensor_ex.o
+ .data          0x0000000000000000        0x0 obj/drivers/tsensor/src/tsensor_ex.o
+ .bss           0x0000000000000000        0x0 obj/drivers/tsensor/src/tsensor_ex.o
+ .text.HAL_TSENSOR_CalibrateHosc
+                0x0000000000000000      0x11e obj/drivers/tsensor/src/tsensor_ex.o
+ .bss.g_firstFlag
+                0x0000000000000000        0x1 obj/drivers/tsensor/src/tsensor_ex.o
+ .bss.g_lastCode
+                0x0000000000000000        0x4 obj/drivers/tsensor/src/tsensor_ex.o
+ .bss.g_lastTemp
+                0x0000000000000000        0x4 obj/drivers/tsensor/src/tsensor_ex.o
+ .rodata.HAL_TSENSOR_CalibrateHosc.cst4
+                0x0000000000000000       0x20 obj/drivers/tsensor/src/tsensor_ex.o
+ .debug_info    0x0000000000000000      0x317 obj/drivers/tsensor/src/tsensor_ex.o
+ .debug_abbrev  0x0000000000000000      0x1a4 obj/drivers/tsensor/src/tsensor_ex.o
+ .debug_loc     0x0000000000000000       0xd1 obj/drivers/tsensor/src/tsensor_ex.o
+ .debug_aranges
+                0x0000000000000000       0x20 obj/drivers/tsensor/src/tsensor_ex.o
+ .debug_ranges  0x0000000000000000       0x68 obj/drivers/tsensor/src/tsensor_ex.o
+ .debug_line    0x0000000000000000      0x1b4 obj/drivers/tsensor/src/tsensor_ex.o
+ .debug_str     0x0000000000000000      0x5aa obj/drivers/tsensor/src/tsensor_ex.o
+ .comment       0x0000000000000000       0x26 obj/drivers/tsensor/src/tsensor_ex.o
+ .debug_frame   0x0000000000000000       0x34 obj/drivers/tsensor/src/tsensor_ex.o
+ .text          0x0000000000000000        0x0 obj/drivers/uart/src/uart.o
+ .data          0x0000000000000000        0x0 obj/drivers/uart/src/uart.o
+ .bss           0x0000000000000000        0x0 obj/drivers/uart/src/uart.o
+ .text.ReadDMAFinishFun
+                0x0000000000000000       0x18 obj/drivers/uart/src/uart.o
+ .text.WriteDMAFinishFun
+                0x0000000000000000       0x18 obj/drivers/uart/src/uart.o
+ .text.TransmitDMAErrorFun
+                0x0000000000000000       0x30 obj/drivers/uart/src/uart.o
+ .text.IRQ_ClearN
+                0x0000000000000000        0xc obj/drivers/uart/src/uart.o
+ .text.WriteITCallBack
+                0x0000000000000000       0x76 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_IRQHandler
+                0x0000000000000000      0x11a obj/drivers/uart/src/uart.o
+ .text.HAL_UART_DeInit
+                0x0000000000000000       0x3a obj/drivers/uart/src/uart.o
+ .text.HAL_UART_GetState
+                0x0000000000000000       0x20 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_WriteBlocking
+                0x0000000000000000       0x98 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_WriteIT
+                0x0000000000000000       0x32 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_WriteDMA
+                0x0000000000000000       0x62 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_ReadBlocking
+                0x0000000000000000       0x98 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_ReadIT
+                0x0000000000000000       0x20 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_ReadDMA
+                0x0000000000000000       0x62 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_StopWrite
+                0x0000000000000000       0x34 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_StopRead
+                0x0000000000000000       0x34 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_IRQService
+                0x0000000000000000       0x12 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_RegisterCallBack
+                0x0000000000000000       0x30 obj/drivers/uart/src/uart.o
+ .text.HAL_UART_ReadDMAAndCyclicallyStored
+                0x0000000000000000       0x8c obj/drivers/uart/src/uart.o
+ .text.HAL_UART_ReadDMAGetPos
+                0x0000000000000000       0x1c obj/drivers/uart/src/uart.o
+ .text.__riscv_case_uqi
+                0x0000000000000000       0x12 obj/drivers/uart/src/uart.o
+ .text          0x0000000000000000        0x0 obj/drivers/wdg/src/wdg.o
+ .data          0x0000000000000000        0x0 obj/drivers/wdg/src/wdg.o
+ .bss           0x0000000000000000        0x0 obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_IRQHandler
+                0x0000000000000000       0x22 obj/drivers/wdg/src/wdg.o
+ .text.WDG_RspInit
+                0x0000000000000000        0x2 obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_SetLoadValue
+                0x0000000000000000       0xac obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_Init
+                0x0000000000000000       0x3c obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_Refresh
+                0x0000000000000000        0x8 obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_GetLoadValue
+                0x0000000000000000        0x6 obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_GetCounterValue
+                0x0000000000000000       0x4a obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_Start
+                0x0000000000000000       0x10 obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_Stop
+                0x0000000000000000       0x10 obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_RegisterCallback
+                0x0000000000000000        0x6 obj/drivers/wdg/src/wdg.o
+ .text.HAL_WDG_IRQService
+                0x0000000000000000       0x12 obj/drivers/wdg/src/wdg.o
+ .rodata.HAL_WDG_SetLoadValue.cst4
+                0x0000000000000000        0x8 obj/drivers/wdg/src/wdg.o
+ .rodata.HAL_WDG_SetLoadValue.cst8
+                0x0000000000000000       0x10 obj/drivers/wdg/src/wdg.o
+ .debug_info    0x0000000000000000      0x71a obj/drivers/wdg/src/wdg.o
+ .debug_abbrev  0x0000000000000000      0x28e obj/drivers/wdg/src/wdg.o
+ .debug_loc     0x0000000000000000      0x369 obj/drivers/wdg/src/wdg.o
+ .debug_aranges
+                0x0000000000000000       0x70 obj/drivers/wdg/src/wdg.o
+ .debug_ranges  0x0000000000000000       0x80 obj/drivers/wdg/src/wdg.o
+ .debug_line    0x0000000000000000      0x32e obj/drivers/wdg/src/wdg.o
+ .debug_str     0x0000000000000000      0x737 obj/drivers/wdg/src/wdg.o
+ .comment       0x0000000000000000       0x26 obj/drivers/wdg/src/wdg.o
+ .debug_frame   0x0000000000000000      0x118 obj/drivers/wdg/src/wdg.o
+ .text          0x0000000000000000        0x0 obj/user/main.o
+ .data          0x0000000000000000        0x0 obj/user/main.o
+ .bss           0x0000000000000000        0x0 obj/user/main.o
+ .text          0x0000000000000000        0x0 obj/user/generatecode/system_init.o
+ .data          0x0000000000000000        0x0 obj/user/generatecode/system_init.o
+ .bss           0x0000000000000000        0x0 obj/user/generatecode/system_init.o
+ .text          0x0000000000000000      0x39c c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .debug_info    0x0000000000000000      0x98f c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .debug_abbrev  0x0000000000000000      0x1e7 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .debug_loc     0x0000000000000000      0x986 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .debug_ranges  0x0000000000000000       0xe0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .debug_line    0x0000000000000000      0x50a c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .debug_str     0x0000000000000000      0x543 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .eh_frame      0x0000000000000000       0x28 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_divdi3.o)
+ .text          0x0000000000000000      0x35e c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000000000      0x95d c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x0000000000000000      0x1d1 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .debug_loc     0x0000000000000000      0xba9 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000000       0xf0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .debug_line    0x0000000000000000      0x4d4 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .debug_str     0x0000000000000000      0x544 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000000000       0x28 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_udivdi3.o)
+ .text          0x0000000000000000      0x84a c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .debug_info    0x0000000000000000      0x59f c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .debug_abbrev  0x0000000000000000      0x169 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .debug_loc     0x0000000000000000     0x1673 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .debug_ranges  0x0000000000000000      0x250 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .debug_line    0x0000000000000000      0xa11 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .debug_str     0x0000000000000000      0x403 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .debug_frame   0x0000000000000000       0x44 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(adddf3.o)
+ .text          0x0000000000000000       0xb4 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .debug_info    0x0000000000000000      0x261 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .debug_abbrev  0x0000000000000000      0x166 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .debug_loc     0x0000000000000000      0x1b7 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .debug_ranges  0x0000000000000000       0x70 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .debug_line    0x0000000000000000      0x2a1 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .debug_str     0x0000000000000000      0x341 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(gedf2.o)
+ .text          0x0000000000000000       0xb4 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .debug_info    0x0000000000000000      0x261 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .debug_abbrev  0x0000000000000000      0x166 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .debug_loc     0x0000000000000000      0x1b7 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .debug_ranges  0x0000000000000000       0x70 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .debug_line    0x0000000000000000      0x2a1 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .debug_str     0x0000000000000000      0x341 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(ledf2.o)
+ .text          0x0000000000000000      0x5c6 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .rodata        0x0000000000000000       0x3c c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .debug_info    0x0000000000000000      0x748 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .debug_abbrev  0x0000000000000000      0x168 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .debug_loc     0x0000000000000000     0x1114 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .debug_ranges  0x0000000000000000      0x1e0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .debug_line    0x0000000000000000      0x57e c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .debug_str     0x0000000000000000      0x51d c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .debug_frame   0x0000000000000000       0x58 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(muldf3.o)
+ .text          0x0000000000000000      0x85a c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .debug_info    0x0000000000000000      0x59f c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .debug_abbrev  0x0000000000000000      0x169 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .debug_loc     0x0000000000000000     0x1781 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .debug_ranges  0x0000000000000000      0x250 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .debug_line    0x0000000000000000      0xa12 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .debug_str     0x0000000000000000      0x403 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .debug_frame   0x0000000000000000       0x44 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(subdf3.o)
+ .text          0x0000000000000000       0xe4 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .debug_info    0x0000000000000000      0x28b c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .debug_abbrev  0x0000000000000000      0x14e c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .debug_loc     0x0000000000000000      0x299 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .debug_ranges  0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .debug_line    0x0000000000000000      0x23c c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .debug_str     0x0000000000000000      0x33e c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .debug_frame   0x0000000000000000       0x38 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(extendsfdf2.o)
+ .text          0x0000000000000000      0x222 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .debug_info    0x0000000000000000      0x2cb c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .debug_abbrev  0x0000000000000000      0x159 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .debug_loc     0x0000000000000000      0x5c2 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .debug_ranges  0x0000000000000000       0x78 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .debug_line    0x0000000000000000      0x418 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .debug_str     0x0000000000000000      0x39c c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(truncdfsf2.o)
+ .text          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .rodata        0x0000000000000000      0x100 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .debug_info    0x0000000000000000      0x2d0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .debug_abbrev  0x0000000000000000       0xd2 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .debug_aranges
+                0x0000000000000000       0x18 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .debug_line    0x0000000000000000      0x35c c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .debug_str     0x0000000000000000      0x48b c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clz.o)
+ .text          0x0000000000000000       0x3c c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000000000      0x337 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000000000000000      0x124 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .debug_loc     0x0000000000000000       0x6b c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .debug_ranges  0x0000000000000000       0x18 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000000000      0x3a4 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .debug_str     0x0000000000000000      0x4a8 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memcpy.o)
+ .text.memcpy   0x0000000000000000      0x362 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memcpy.o)
+ .comment       0x0000000000000000       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memset.o)
+ .data          0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM_CODE         0x0000000002000000 0x0000000000000000 xr
+RAM_RESERVE_DATA 0x0000000004000000 0x0000000000000000 rw
+RAM_DATA         0x0000000004000000 0x0000000000002800 xrw
+RAM_STACK        0x0000000004002800 0x0000000000001800 xrw
+FLASH_MAGIC      0x0000000003000000 0x0000000000000004 rw
+FLASH_CODE       0x0000000003000004 0x0000000000027ffc xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../lib/gcc/riscv32-linux-musl/7.3.0\libgcc.a
+LOAD c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a
+LOAD obj/chip/3065h/startup.o
+LOAD obj/chip/3065h/chipinit/chipinit.o
+LOAD obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+LOAD obj/chip/3065h/chipinit/adcinit/adcinit.o
+LOAD obj/chip/3065h/chipinit/crginit/crginit.o
+LOAD obj/chip/3065h/chipinit/flashinit/flashinit.o
+LOAD obj/chip/3065h/chipinit/nosinit/nosinit.o
+LOAD obj/chip/3065h/chipinit/pgainit/pgainit.o
+LOAD obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+LOAD obj/chip/3065h/chipinit/systickinit/systickinit.o
+LOAD obj/chip/3065h/fotp/fotp_info_read.o
+LOAD obj/chip/3065h/ip_crg/ip_crg_common.o
+LOAD obj/drivers/acmp/src/acmp.o
+LOAD obj/drivers/adc/src/adc.o
+LOAD obj/drivers/apt/src/apt.o
+LOAD obj/drivers/base/src/base_math.o
+LOAD obj/drivers/base/src/clock.o
+LOAD obj/drivers/base/src/generalfunc.o
+LOAD obj/drivers/base/src/interrupt.o
+LOAD obj/drivers/base/src/lock.o
+LOAD obj/drivers/base/src/reset.o
+LOAD obj/drivers/can/src/can.o
+LOAD obj/drivers/capm/src/capm.o
+LOAD obj/drivers/cfd/src/cfd.o
+LOAD obj/drivers/cmm/src/cmm.o
+LOAD obj/drivers/crc/src/crc.o
+LOAD obj/drivers/crg/src/crg.o
+LOAD obj/drivers/dac/src/dac.o
+LOAD obj/drivers/debug/src/debug.o
+LOAD obj/drivers/dma/src/dma.o
+LOAD obj/drivers/flash/src/flash.o
+LOAD obj/drivers/gpio/src/gpio.o
+LOAD obj/drivers/gpt/src/gpt.o
+LOAD obj/drivers/i2c/src/i2c.o
+LOAD obj/drivers/iocmg/src/iocmg.o
+LOAD obj/drivers/pga/src/pga.o
+LOAD obj/drivers/pmc/src/pmc.o
+LOAD obj/drivers/qdm/src/qdm.o
+LOAD obj/drivers/spi/src/spi.o
+LOAD obj/drivers/timer/src/timer.o
+LOAD obj/drivers/tsensor/src/tsensor.o
+LOAD obj/drivers/tsensor/src/tsensor_ex.o
+LOAD obj/drivers/uart/src/uart.o
+LOAD obj/drivers/wdg/src/wdg.o
+LOAD obj/user/main.o
+LOAD obj/user/generatecode/system_init.o
+END GROUP
+                0x0000000004000000                SRAM_START = 0x4000000
+                0x0000000004004000                SRAM_END = 0x4004000
+                0x0000000002000000                RAM_CODE_START = 0x2000000
+                0x0000000000000000                RAM_CODE_SIZE = 0x0
+                0x0000000004000000                RAM_RESERVE_DATA_START = (SRAM_START + RAM_CODE_SIZE)
+                0x0000000000000000                RAM_RESERVE_DATA_SIZE = 0x0
+                0x0000000004000000                RAM_START = (RAM_RESERVE_DATA_START + RAM_RESERVE_DATA_SIZE)
+                0x0000000000002800                RAM_SIZE = 0x2800
+                0x0000000004004000                RAM_END = SRAM_END
+                0x0000000000001400                STACK_SIZE = 0x1400
+                0x0000000000000400                NMI_STACK_SIZE = 0x400
+                0x0000000000000400                INIT_STACK_SIZE = 0x400
+                0x0000000003000000                FLASH_START = 0x3000000
+                0x0000000000027ffc                FLASH_SIZE = 0x27ffc
+
+.data.magic     0x0000000003000000        0x4
+ *(.data.magic)
+ .data.magic    0x0000000003000000        0x4 obj/chip/3065h/startup.o
+
+.text.entry     0x0000000003000004      0x68c
+ *(.text.entry)
+ .text.entry    0x0000000003000004      0x68c obj/chip/3065h/startup.o
+                0x0000000003000004                _start
+
+.stacks         0x0000000004002800      0x400
+                0x0000000004002800                . = ALIGN (0x4)
+                0x0000000004002800                __SYSTEM_STACK_BEGIN__ = ORIGIN (RAM_STACK)
+ *(.stacks)
+                0x0000000004003c00                __SYSTEM_STACK_END__ = (ORIGIN (RAM_STACK) + STACK_SIZE)
+                0x0000000004002800                . = ALIGN (0x20)
+                0x0000000004003c00                __INTERRUPT_STACK_BEGIN__ = __SYSTEM_STACK_END__
+                0x0000000004002800                . = ALIGN (0x20)
+                0x0000000004003c00                __NMI_STACK_BEGIN__ = __SYSTEM_STACK_END__
+                0x0000000004002800                __nmi_stack_bottom = .
+                0x0000000004002c00                . = (. + NMI_STACK_SIZE)
+ *fill*         0x0000000004002800      0x400 
+                0x0000000004002c00                __nmi_stack_top = .
+                0x0000000004003c00                __stack_top = __SYSTEM_STACK_END__
+                0x0000000004002c00                __init_stack_top = (__SYSTEM_STACK_BEGIN__ + INIT_STACK_SIZE)
+                0x0000000004003c00                __irq_stack_top = __SYSTEM_STACK_END__
+
+.text.sram      0x0000000002000000        0x0 load address 0x0000000003000690
+                0x0000000003000690                __sram_code_load = LOADADDR (.text.sram)
+                0x0000000002000000                __sram_code_start = .
+ *(.text.sram)
+                0x0000000002000000                . = ALIGN (0x4)
+                0x0000000002000000                __sram_code_end = .
+
+.reserved.data  0x0000000004000000        0x0 load address 0x0000000003000690
+                0x0000000003000690                __reserved_code_load_addr = LOADADDR (.reserved.data)
+                0x0000000004000000                __reserved_code_start_addr = .
+ *(.reserved.data*)
+                0x0000000004000000                . = ALIGN (0x4)
+                0x0000000004000000                __reserved_code_end_addr = .
+
+.text           0x0000000003000690     0x385c
+                0x0000000003000690                __start_addr = .
+ *(.text*)
+ .text.Chip_Init
+                0x0000000003000690       0x34 obj/chip/3065h/chipinit/chipinit.o
+                0x0000000003000690                Chip_Init
+ .text.TSENSOR_InitVrefList
+                0x00000000030006c4       0x5e obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+                0x00000000030006c4                TSENSOR_InitVrefList
+ .text.ADC_GetOffsetTrim
+                0x0000000003000722       0x34 obj/chip/3065h/chipinit/adcinit/adcinit.o
+                0x0000000003000722                ADC_GetOffsetTrim
+ .text.ADC_InitVref
+                0x0000000003000756      0x240 obj/chip/3065h/chipinit/adcinit/adcinit.o
+                0x0000000003000756                ADC_InitVref
+ .text.CRG_SetCoreClockSelect
+                0x0000000003000996       0x12 obj/chip/3065h/chipinit/crginit/crginit.o
+                0x0000000003000996                CRG_SetCoreClockSelect
+ .text.FLASH_ClockConfig
+                0x00000000030009a8       0xd4 obj/chip/3065h/chipinit/flashinit/flashinit.o
+                0x00000000030009a8                FLASH_ClockConfig
+ .text.FLASH_WaitClockConfigDone
+                0x0000000003000a7c       0x12 obj/chip/3065h/chipinit/flashinit/flashinit.o
+                0x0000000003000a7c                FLASH_WaitClockConfigDone
+ .text.PGA_InitVref
+                0x0000000003000a8e       0x4a obj/chip/3065h/chipinit/pgainit/pgainit.o
+                0x0000000003000a8e                PGA_InitVref
+ .text.PMC_InitVref
+                0x0000000003000ad8       0x2e obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+                0x0000000003000ad8                PMC_InitVref
+ .text.SYSTICK_GetCRGHZ
+                0x0000000003000b06        0xa obj/chip/3065h/chipinit/systickinit/systickinit.o
+                0x0000000003000b06                SYSTICK_GetCRGHZ
+ .text.DCL_SYSTICK_GetTick
+                0x0000000003000b10        0xe obj/chip/3065h/chipinit/systickinit/systickinit.o
+                0x0000000003000b10                DCL_SYSTICK_GetTick
+ .text.SYSTICK_Init
+                0x0000000003000b1e       0x2e obj/chip/3065h/chipinit/systickinit/systickinit.o
+                0x0000000003000b1e                SYSTICK_Init
+ .text.FOTP_InfoGet
+                0x0000000003000b4c      0x114 obj/chip/3065h/fotp/fotp_info_read.o
+                0x0000000003000b4c                FOTP_InfoGet
+ .text.GetCrgIpMatchInfo
+                0x0000000003000c60       0x22 obj/chip/3065h/ip_crg/ip_crg_common.o
+                0x0000000003000c60                GetCrgIpMatchInfo
+ .text.HAL_ACMP_Init
+                0x0000000003000c82      0x13c obj/drivers/acmp/src/acmp.o
+                0x0000000003000c82                HAL_ACMP_Init
+ .text.HAL_ADC_IrqHandler
+                0x0000000003000dbe      0x102 obj/drivers/adc/src/adc.o
+                0x0000000003000dbe                HAL_ADC_IrqHandler
+ .text.HAL_ADC_Init
+                0x0000000003000ec0      0x116 obj/drivers/adc/src/adc.o
+                0x0000000003000ec0                HAL_ADC_Init
+ .text.HAL_ADC_ConfigureSoc
+                0x0000000003000fd6      0x13e obj/drivers/adc/src/adc.o
+                0x0000000003000fd6                HAL_ADC_ConfigureSoc
+ .text.HAL_ADC_IrqService
+                0x0000000003001114       0x34 obj/drivers/adc/src/adc.o
+                0x0000000003001114                HAL_ADC_IrqService
+ .text.HAL_ADC_RegisterCallBack
+                0x0000000003001148       0x44 obj/drivers/adc/src/adc.o
+                0x0000000003001148                HAL_ADC_RegisterCallBack
+ .text.__riscv_case_uqi
+                0x000000000300118c       0x12 obj/drivers/adc/src/adc.o
+                0x000000000300118c                __riscv_case_uqi
+ .text.APT_SetOutCtrlAction.isra.1
+                0x000000000300119e       0x38 obj/drivers/apt/src/apt.o
+ .text.HAL_APT_IRQHandler
+                0x00000000030011d6       0x64 obj/drivers/apt/src/apt.o
+                0x00000000030011d6                HAL_APT_IRQHandler
+ .text.APT_RspInit
+                0x000000000300123a        0x2 obj/drivers/apt/src/apt.o
+                0x000000000300123a                APT_RspInit
+ .text.HAL_APT_PWMInit
+                0x000000000300123c      0x410 obj/drivers/apt/src/apt.o
+                0x000000000300123c                HAL_APT_PWMInit
+ .text.HAL_APT_ProtectInitEx
+                0x000000000300164c      0x1fa obj/drivers/apt/src/apt.o
+                0x000000000300164c                HAL_APT_ProtectInitEx
+ .text.HAL_APT_MasterSyncInit
+                0x0000000003001846       0x28 obj/drivers/apt/src/apt.o
+                0x0000000003001846                HAL_APT_MasterSyncInit
+ .text.HAL_APT_SlaveSyncInit
+                0x000000000300186e       0x50 obj/drivers/apt/src/apt.o
+                0x000000000300186e                HAL_APT_SlaveSyncInit
+ .text.HAL_APT_IRQService
+                0x00000000030018be       0x1e obj/drivers/apt/src/apt.o
+                0x00000000030018be                HAL_APT_IRQService
+ .text.HAL_APT_RegisterCallBack
+                0x00000000030018dc       0x10 obj/drivers/apt/src/apt.o
+                0x00000000030018dc                HAL_APT_RegisterCallBack
+ .text.BASE_FUNC_DelayUs
+                0x00000000030018ec       0x2a obj/drivers/base/src/clock.o
+                0x00000000030018ec                BASE_FUNC_DelayUs
+ .text.BASE_FUNC_DelayMs
+                0x0000000003001916       0x16 obj/drivers/base/src/clock.o
+                0x0000000003001916                BASE_FUNC_DelayMs
+ .text.BASE_FUNC_DelaySeconds
+                0x000000000300192c       0x16 obj/drivers/base/src/clock.o
+                0x000000000300192c                BASE_FUNC_DelaySeconds
+ .text.BASE_FUNC_Delay
+                0x0000000003001942       0x1e obj/drivers/base/src/clock.o
+                0x0000000003001942                BASE_FUNC_Delay
+ .text.IRQ_DummyHandler
+                0x0000000003001960        0x2 obj/drivers/base/src/interrupt.o
+ .text.InterruptEntry
+                0x0000000003001962        0xe obj/drivers/base/src/interrupt.o
+                0x0000000003001962                InterruptEntry
+ .text.IRQ_Init
+                0x0000000003001970       0x1c obj/drivers/base/src/interrupt.o
+                0x0000000003001970                IRQ_Init
+ .text.IRQ_Register
+                0x000000000300198c       0x2a obj/drivers/base/src/interrupt.o
+                0x000000000300198c                IRQ_Register
+ .text.IRQ_Unregister
+                0x00000000030019b6       0x20 obj/drivers/base/src/interrupt.o
+                0x00000000030019b6                IRQ_Unregister
+ .text.IRQ_EnableN
+                0x00000000030019d6       0x5c obj/drivers/base/src/interrupt.o
+                0x00000000030019d6                IRQ_EnableN
+ .text.SysErrPrint
+                0x0000000003001a32        0x2 obj/drivers/base/src/interrupt.o
+                0x0000000003001a32                SysErrPrint
+ .text.SysErrExcEntry
+                0x0000000003001a34        0x2 obj/drivers/base/src/interrupt.o
+                0x0000000003001a34                SysErrExcEntry
+ .text.SysErrNmiEntry
+                0x0000000003001a36        0x6 obj/drivers/base/src/interrupt.o
+                0x0000000003001a36                SysErrNmiEntry
+ .text.IRQ_SetPriority
+                0x0000000003001a3c      0x124 obj/drivers/base/src/interrupt.o
+                0x0000000003001a3c                IRQ_SetPriority
+ .text.DCL_SYSCTRL_CrgWriteProtectionDisable
+                0x0000000003001b60       0x16 obj/drivers/crg/src/crg.o
+ .text.DCL_SYSCTRL_CrgWriteProtectionEnable
+                0x0000000003001b76       0x16 obj/drivers/crg/src/crg.o
+ .text.CRG_IpWithClkSelEnableSet
+                0x0000000003001b8c       0x26 obj/drivers/crg/src/crg.o
+ .text.CRG_IpWithClkSelEnableGet
+                0x0000000003001bb2       0x10 obj/drivers/crg/src/crg.o
+ .text.CRG_IpWithClkSelResetSet
+                0x0000000003001bc2       0x1c obj/drivers/crg/src/crg.o
+ .text.CRG_IpWithClkSelResetGet
+                0x0000000003001bde       0x12 obj/drivers/crg/src/crg.o
+ .text.CRG_IpWithClkSelClkSelSet
+                0x0000000003001bf0       0x1a obj/drivers/crg/src/crg.o
+ .text.CRG_IpWithClkSelClkSelGet
+                0x0000000003001c0a       0x12 obj/drivers/crg/src/crg.o
+ .text.CRG_IpWoClkSelEnableSet
+                0x0000000003001c1c       0x60 obj/drivers/crg/src/crg.o
+ .text.CRG_IpWoClkSelEnableGet
+                0x0000000003001c7c       0x20 obj/drivers/crg/src/crg.o
+ .text.CRG_IpWoClkSelResetSet
+                0x0000000003001c9c       0x44 obj/drivers/crg/src/crg.o
+ .text.CRG_IpWoClkSelResetGet
+                0x0000000003001ce0       0x20 obj/drivers/crg/src/crg.o
+ .text.CRG_AdcEnableSet
+                0x0000000003001d00       0x52 obj/drivers/crg/src/crg.o
+ .text.CRG_AdcEnableGet
+                0x0000000003001d52       0x1c obj/drivers/crg/src/crg.o
+ .text.CRG_AdcClkSelectSet
+                0x0000000003001d6e       0x1c obj/drivers/crg/src/crg.o
+ .text.CRG_AdcClkSelectGet
+                0x0000000003001d8a       0x12 obj/drivers/crg/src/crg.o
+ .text.CRG_AdcDivSet
+                0x0000000003001d9c       0x1a obj/drivers/crg/src/crg.o
+ .text.CRG_AdcDivGet
+                0x0000000003001db6       0x12 obj/drivers/crg/src/crg.o
+ .text.CRG_AdcResetSet
+                0x0000000003001dc8       0x52 obj/drivers/crg/src/crg.o
+ .text.CRG_AdcResetGet
+                0x0000000003001e1a       0x1e obj/drivers/crg/src/crg.o
+ .text.CRG_DacEnableSet
+                0x0000000003001e38       0x64 obj/drivers/crg/src/crg.o
+ .text.CRG_DacEnableGet
+                0x0000000003001e9c       0x18 obj/drivers/crg/src/crg.o
+ .text.CRG_DacDivSet
+                0x0000000003001eb4       0x72 obj/drivers/crg/src/crg.o
+ .text.CRG_DacDivGet
+                0x0000000003001f26       0x1c obj/drivers/crg/src/crg.o
+ .text.CRG_DacResetSet
+                0x0000000003001f42       0x52 obj/drivers/crg/src/crg.o
+ .text.CRG_DacResetGet
+                0x0000000003001f94       0x1a obj/drivers/crg/src/crg.o
+ .text.CRG_EfcEnableSet
+                0x0000000003001fae       0x16 obj/drivers/crg/src/crg.o
+ .text.CRG_EfcEnableGet
+                0x0000000003001fc4       0x10 obj/drivers/crg/src/crg.o
+ .text.CRG_GetVcoFreq
+                0x0000000003001fd4       0x4a obj/drivers/crg/src/crg.o
+ .text.HAL_CRG_Init
+                0x000000000300201e       0xbc obj/drivers/crg/src/crg.o
+                0x000000000300201e                HAL_CRG_Init
+ .text.HAL_CRG_SetCoreClockSelect
+                0x00000000030020da       0x1e obj/drivers/crg/src/crg.o
+                0x00000000030020da                HAL_CRG_SetCoreClockSelect
+ .text.HAL_CRG_GetPllFreq
+                0x00000000030020f8       0x20 obj/drivers/crg/src/crg.o
+                0x00000000030020f8                HAL_CRG_GetPllFreq
+ .text.HAL_CRG_GetCoreClkFreq
+                0x0000000003002118       0x2e obj/drivers/crg/src/crg.o
+                0x0000000003002118                HAL_CRG_GetCoreClkFreq
+ .text.HAL_CRG_GetIpFreq
+                0x0000000003002146       0xa6 obj/drivers/crg/src/crg.o
+                0x0000000003002146                HAL_CRG_GetIpFreq
+ .text.HAL_CRG_IpEnableSet
+                0x00000000030021ec       0x2a obj/drivers/crg/src/crg.o
+                0x00000000030021ec                HAL_CRG_IpEnableSet
+ .text.HAL_CRG_IpClkSelectSet
+                0x0000000003002216       0x2a obj/drivers/crg/src/crg.o
+                0x0000000003002216                HAL_CRG_IpClkSelectSet
+ .text.HAL_CRG_IpClkDivSet
+                0x0000000003002240       0x2a obj/drivers/crg/src/crg.o
+                0x0000000003002240                HAL_CRG_IpClkDivSet
+ .text.GetCrgIpMatchInfo.trans.0
+                0x000000000300226a        0x4 _kmpl_trans
+                0x000000000300226a                GetCrgIpMatchInfo.trans.0
+ .text.GPIO_RspInit
+                0x000000000300226e        0x2 obj/drivers/gpio/src/gpio.o
+                0x000000000300226e                GPIO_RspInit
+ .text.HAL_GPIO_SetIrqType
+                0x0000000003002270       0xbc obj/drivers/gpio/src/gpio.o
+                0x0000000003002270                HAL_GPIO_SetIrqType
+ .text.HAL_GPIO_Init
+                0x000000000300232c       0x6c obj/drivers/gpio/src/gpio.o
+                0x000000000300232c                HAL_GPIO_Init
+ .text.HAL_PGA_Init
+                0x0000000003002398       0x6c obj/drivers/pga/src/pga.o
+                0x0000000003002398                HAL_PGA_Init
+ .text.HAL_TIMER_RspInit
+                0x0000000003002404        0x2 obj/drivers/timer/src/timer.o
+                0x0000000003002404                HAL_TIMER_RspInit
+ .text.HAL_TIMER_Init
+                0x0000000003002406       0x94 obj/drivers/timer/src/timer.o
+                0x0000000003002406                HAL_TIMER_Init
+ .text.HAL_TIMER_Start
+                0x000000000300249a        0xc obj/drivers/timer/src/timer.o
+                0x000000000300249a                HAL_TIMER_Start
+ .text.HAL_TIMER_IrqClear
+                0x00000000030024a6       0x14 obj/drivers/timer/src/timer.o
+                0x00000000030024a6                HAL_TIMER_IrqClear
+ .text.HAL_TIMER_RegisterCallback
+                0x00000000030024ba       0x1c obj/drivers/timer/src/timer.o
+                0x00000000030024ba                HAL_TIMER_RegisterCallback
+ .text.HAL_UART_Init
+                0x00000000030024d6       0xce obj/drivers/uart/src/uart.o
+                0x00000000030024d6                HAL_UART_Init
+ .text.startup.main
+                0x00000000030025a4        0x6 obj/user/main.o
+                0x00000000030025a4                main
+ .text.APT8EventCallback
+                0x00000000030025aa        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025aa                APT8EventCallback
+ .text.TIMER0CallbackFunction
+                0x00000000030025ac        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025ac                TIMER0CallbackFunction
+ .text.TIMER2CallbackFunction
+                0x00000000030025ae        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025ae                TIMER2CallbackFunction
+ .text.TIMER1CallbackFunction
+                0x00000000030025b0        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025b0                TIMER1CallbackFunction
+ .text.APT4TimerCallback
+                0x00000000030025b2        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025b2                APT4TimerCallback
+ .text.ADC2Interrupt1Callback
+                0x00000000030025b4        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025b4                ADC2Interrupt1Callback
+ .text.APT0EventCallback
+                0x00000000030025b6        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025b6                APT0EventCallback
+ .text.APT0TimerCallback
+                0x00000000030025b8        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025b8                APT0TimerCallback
+ .text.APT3EventCallback
+                0x00000000030025ba        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025ba                APT3EventCallback
+ .text.APT3TimerCallback
+                0x00000000030025bc        0x2 obj/user/generatecode/system_init.o
+                0x00000000030025bc                APT3TimerCallback
+ .text.CRG_Config
+                0x00000000030025be       0x2c obj/user/generatecode/system_init.o
+                0x00000000030025be                CRG_Config
+ .text.SystemInit
+                0x00000000030025ea     0x14d0 obj/user/generatecode/system_init.o
+                0x00000000030025ea                SystemInit
+ .text.memset   0x0000000003003aba       0xbe c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memset.o)
+                0x0000000003003aba                memset
+ *(.ram.text*)
+                0x0000000003003b78                . = ALIGN (0x4)
+ *fill*         0x0000000003003b78        0x0 
+                0x0000000003003b78                __rodata_start = .
+ *(.rodata*)
+ .rodata.TSENSOR_InitVrefList.cst4
+                0x0000000003003b78        0x8 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .rodata.ADC_GetGainTrim.cst4
+                0x0000000003003b80        0x4 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .rodata.ADC_GetOffsetTrim.cst4
+                0x0000000003003b84        0x4 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .rodata.ADC_InitVref.cst4
+                0x0000000003003b88        0x4 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .rodata.g_crgIpMatch
+                0x0000000003003b8c      0x264 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .rodata.g_ipClkProc
+                0x0000000003003df0       0xfc obj/drivers/crg/src/crg.o
+                0x0000000003003eec                . = ALIGN (0x4)
+                0x0000000003003eec                __rodata_end = .
+ *(.got*)
+                0x0000000003003eec                __text_end = .
+
+.rela.dyn       0x0000000003003eec        0x0
+ .rela.text.entry
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+ .rela.text.HAL_ADC_RegisterCallBack
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+ .rela.text.HAL_APT_PWMInit
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+ .rela.text.SysErrExcEntry
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+ .rela.text.SysErrNmiEntry
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+ .rela.text.IRQ_SetPriority
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+ .rela.text.HAL_CRG_GetIpFreq
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+ .rela.text.HAL_GPIO_Init
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+ .rela.text.HAL_TIMER_Init
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+ .rela.text.SystemInit
+                0x0000000003003eec        0x0 obj/chip/3065h/startup.o
+
+.data           0x0000000004000000        0x8 load address 0x0000000003003eec
+                0x0000000003003eec                __data_load = LOADADDR (.data)
+                0x0000000004000000                __data_start = .
+ *(.data*)
+ .data.g_hosc_ctrim
+                0x0000000004000000        0x4 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+                0x0000000004000000                g_hosc_ctrim
+ .data.g_versionId
+                0x0000000004000004        0x4 obj/chip/3065h/chipinit/adcinit/adcinit.o
+                0x0000000004000004                g_versionId
+                0x0000000004000008                . = ALIGN (0x4)
+                0x0000000004000008                __data_end = .
+                0x0000000000000008                __data_size = (__data_end - __data_start)
+
+.bss            0x0000000004000008      0xca0 load address 0x0000000003003ef4
+                0x0000000004000008                __bss_begin__ = .
+ *(.bss*)
+ .bss.g_tsensor
+                0x0000000004000008        0xc obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+                0x0000000004000008                g_tsensor
+ .bss.g_adcParmList
+                0x0000000004000014       0xc0 obj/chip/3065h/chipinit/adcinit/adcinit.o
+                0x0000000004000014                g_adcParmList
+ .bss.g_adcTrimList
+                0x00000000040000d4       0x30 obj/chip/3065h/chipinit/adcinit/adcinit.o
+                0x00000000040000d4                g_adcTrimList
+ .bss.g_trimEnable
+                0x0000000004000104        0x1 obj/chip/3065h/chipinit/adcinit/adcinit.o
+                0x0000000004000104                g_trimEnable
+ *fill*         0x0000000004000105        0x3 
+ .bss.g_systickHandle
+                0x0000000004000108       0x28 obj/chip/3065h/chipinit/systickinit/systickinit.o
+                0x0000000004000108                g_systickHandle
+ .bss.g_irqCallbackFunc
+                0x0000000004000130      0x3a8 obj/drivers/base/src/interrupt.o
+                0x0000000004000130                g_irqCallbackFunc
+ .bss.g_crgBaseAddr
+                0x00000000040004d8        0x4 obj/drivers/crg/src/crg.o
+ .bss.g_acmp1   0x00000000040004dc       0x2c obj/user/main.o
+                0x00000000040004dc                g_acmp1
+ .bss.g_adc0    0x0000000004000508       0xa0 obj/user/main.o
+                0x0000000004000508                g_adc0
+ .bss.g_adc1    0x00000000040005a8       0xa0 obj/user/main.o
+                0x00000000040005a8                g_adc1
+ .bss.g_adc2    0x0000000004000648       0xa0 obj/user/main.o
+                0x0000000004000648                g_adc2
+ .bss.g_apt0    0x00000000040006e8       0x68 obj/user/main.o
+                0x00000000040006e8                g_apt0
+ .bss.g_apt1    0x0000000004000750       0x68 obj/user/main.o
+                0x0000000004000750                g_apt1
+ .bss.g_apt2    0x00000000040007b8       0x68 obj/user/main.o
+                0x00000000040007b8                g_apt2
+ .bss.g_apt3    0x0000000004000820       0x68 obj/user/main.o
+                0x0000000004000820                g_apt3
+ .bss.g_apt4    0x0000000004000888       0x68 obj/user/main.o
+                0x0000000004000888                g_apt4
+ .bss.g_apt5    0x00000000040008f0       0x68 obj/user/main.o
+                0x00000000040008f0                g_apt5
+ .bss.g_apt8    0x0000000004000958       0x68 obj/user/main.o
+                0x0000000004000958                g_apt8
+ .bss.g_gpio0   0x00000000040009c0       0x58 obj/user/main.o
+                0x00000000040009c0                g_gpio0
+ .bss.g_gpio1   0x0000000004000a18       0x58 obj/user/main.o
+                0x0000000004000a18                g_gpio1
+ .bss.g_gpio5   0x0000000004000a70       0x58 obj/user/main.o
+                0x0000000004000a70                g_gpio5
+ .bss.g_gpio6   0x0000000004000ac8       0x58 obj/user/main.o
+                0x0000000004000ac8                g_gpio6
+ .bss.g_pga0    0x0000000004000b20       0x18 obj/user/main.o
+                0x0000000004000b20                g_pga0
+ .bss.g_pga1    0x0000000004000b38       0x18 obj/user/main.o
+                0x0000000004000b38                g_pga1
+ .bss.g_timer0  0x0000000004000b50       0x28 obj/user/main.o
+                0x0000000004000b50                g_timer0
+ .bss.g_timer1  0x0000000004000b78       0x28 obj/user/main.o
+                0x0000000004000b78                g_timer1
+ .bss.g_timer2  0x0000000004000ba0       0x28 obj/user/main.o
+                0x0000000004000ba0                g_timer2
+ .bss.g_uart0   0x0000000004000bc8       0x70 obj/user/main.o
+                0x0000000004000bc8                g_uart0
+ .bss.g_uart2   0x0000000004000c38       0x70 obj/user/main.o
+                0x0000000004000c38                g_uart2
+ *(COMMON)
+                0x0000000004000ca8                . = ALIGN (0x4)
+                0x0000000004000ca8                __bss_end__ = .
+                0x0000000000000ca0                __bss_size__ = (__bss_end__ - __bss_begin__)
+                0x0000000004000654                __global_pointer$ = (__data_start + ((__data_size + __bss_size__) / 0x2))
+OUTPUT(./bin/target.elf elf32-littleriscv)
+
+.debug_line     0x0000000000000000     0x79e3
+ .debug_line    0x0000000000000000      0x860 obj/chip/3065h/startup.o
+ .debug_line    0x0000000000000860      0x255 obj/chip/3065h/chipinit/chipinit.o
+ .debug_line    0x0000000000000ab5      0x109 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .debug_line    0x0000000000000bbe      0x3a9 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .debug_line    0x0000000000000f67      0x13f obj/chip/3065h/chipinit/crginit/crginit.o
+ .debug_line    0x00000000000010a6      0x19f obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .debug_line    0x0000000000001245       0xe0 obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .debug_line    0x0000000000001325       0xce obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .debug_line    0x00000000000013f3      0x1a2 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .debug_line    0x0000000000001595      0x1a9 obj/chip/3065h/fotp/fotp_info_read.o
+ .debug_line    0x000000000000173e       0x91 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .debug_line    0x00000000000017cf      0x214 obj/drivers/acmp/src/acmp.o
+ .debug_line    0x00000000000019e3      0xcb6 obj/drivers/adc/src/adc.o
+ .debug_line    0x0000000000002699      0xdba obj/drivers/apt/src/apt.o
+ .debug_line    0x0000000000003453      0x1a9 obj/drivers/base/src/clock.o
+ .debug_line    0x00000000000035fc      0x452 obj/drivers/base/src/interrupt.o
+ .debug_line    0x0000000000003a4e     0x1015 obj/drivers/crg/src/crg.o
+ .debug_line    0x0000000000004a63      0x482 obj/drivers/gpio/src/gpio.o
+ .debug_line    0x0000000000004ee5      0x134 obj/drivers/pga/src/pga.o
+ .debug_line    0x0000000000005019      0x39e obj/drivers/timer/src/timer.o
+ .debug_line    0x00000000000053b7      0xb1c obj/drivers/uart/src/uart.o
+ .debug_line    0x0000000000005ed3      0x2aa obj/user/main.o
+ .debug_line    0x000000000000617d     0x1866 obj/user/generatecode/system_init.o
+
+.debug_info     0x0000000000000000    0x322cf
+ .debug_info    0x0000000000000000       0x26 obj/chip/3065h/startup.o
+ .debug_info    0x0000000000000026      0x2c6 obj/chip/3065h/chipinit/chipinit.o
+ .debug_info    0x00000000000002ec      0x2c1 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .debug_info    0x00000000000005ad     0x1d90 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .debug_info    0x000000000000233d     0x192c obj/chip/3065h/chipinit/crginit/crginit.o
+ .debug_info    0x0000000000003c69      0xe90 obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .debug_info    0x0000000000004af9      0x419 obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .debug_info    0x0000000000004f12      0x6eb obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .debug_info    0x00000000000055fd      0x474 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .debug_info    0x0000000000005a71      0xe2c obj/chip/3065h/fotp/fotp_info_read.o
+ .debug_info    0x000000000000689d      0x138 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .debug_info    0x00000000000069d5      0x701 obj/drivers/acmp/src/acmp.o
+ .debug_info    0x00000000000070d6     0x65e2 obj/drivers/adc/src/adc.o
+ .debug_info    0x000000000000d6b8     0x6001 obj/drivers/apt/src/apt.o
+ .debug_info    0x00000000000136b9      0x231 obj/drivers/base/src/clock.o
+ .debug_info    0x00000000000138ea     0x1087 obj/drivers/base/src/interrupt.o
+ .debug_info    0x0000000000014971     0x394c obj/drivers/crg/src/crg.o
+ .debug_info    0x00000000000182bd     0x1124 obj/drivers/gpio/src/gpio.o
+ .debug_info    0x00000000000193e1      0x41c obj/drivers/pga/src/pga.o
+ .debug_info    0x00000000000197fd      0x6de obj/drivers/timer/src/timer.o
+ .debug_info    0x0000000000019edb     0x27bd obj/drivers/uart/src/uart.o
+ .debug_info    0x000000000001c698     0x94b3 obj/user/main.o
+ .debug_info    0x0000000000025b4b     0xc784 obj/user/generatecode/system_init.o
+
+.debug_abbrev   0x0000000000000000     0x365e
+ .debug_abbrev  0x0000000000000000       0x14 obj/chip/3065h/startup.o
+ .debug_abbrev  0x0000000000000014      0x132 obj/chip/3065h/chipinit/chipinit.o
+ .debug_abbrev  0x0000000000000146      0x15d obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .debug_abbrev  0x00000000000002a3      0x2ea obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .debug_abbrev  0x000000000000058d      0x170 obj/chip/3065h/chipinit/crginit/crginit.o
+ .debug_abbrev  0x00000000000006fd      0x225 obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .debug_abbrev  0x0000000000000922      0x18b obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .debug_abbrev  0x0000000000000aad      0x1a1 obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .debug_abbrev  0x0000000000000c4e      0x17f obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .debug_abbrev  0x0000000000000dcd      0x1e1 obj/chip/3065h/fotp/fotp_info_read.o
+ .debug_abbrev  0x0000000000000fae       0xd9 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .debug_abbrev  0x0000000000001087      0x1b0 obj/drivers/acmp/src/acmp.o
+ .debug_abbrev  0x0000000000001237      0x544 obj/drivers/adc/src/adc.o
+ .debug_abbrev  0x000000000000177b      0x416 obj/drivers/apt/src/apt.o
+ .debug_abbrev  0x0000000000001b91      0x12d obj/drivers/base/src/clock.o
+ .debug_abbrev  0x0000000000001cbe      0x34b obj/drivers/base/src/interrupt.o
+ .debug_abbrev  0x0000000000002009      0x476 obj/drivers/crg/src/crg.o
+ .debug_abbrev  0x000000000000247f      0x3e2 obj/drivers/gpio/src/gpio.o
+ .debug_abbrev  0x0000000000002861      0x129 obj/drivers/pga/src/pga.o
+ .debug_abbrev  0x000000000000298a      0x1e2 obj/drivers/timer/src/timer.o
+ .debug_abbrev  0x0000000000002b6c      0x468 obj/drivers/uart/src/uart.o
+ .debug_abbrev  0x0000000000002fd4      0x24a obj/user/main.o
+ .debug_abbrev  0x000000000000321e      0x440 obj/user/generatecode/system_init.o
+
+.debug_aranges  0x0000000000000000      0x808
+ .debug_aranges
+                0x0000000000000000       0x20 obj/chip/3065h/startup.o
+ .debug_aranges
+                0x0000000000000020       0x20 obj/chip/3065h/chipinit/chipinit.o
+ .debug_aranges
+                0x0000000000000040       0x20 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .debug_aranges
+                0x0000000000000060       0x30 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .debug_aranges
+                0x0000000000000090       0x28 obj/chip/3065h/chipinit/crginit/crginit.o
+ .debug_aranges
+                0x00000000000000b8       0x28 obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .debug_aranges
+                0x00000000000000e0       0x20 obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .debug_aranges
+                0x0000000000000100       0x20 obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .debug_aranges
+                0x0000000000000120       0x38 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .debug_aranges
+                0x0000000000000158       0x20 obj/chip/3065h/fotp/fotp_info_read.o
+ .debug_aranges
+                0x0000000000000178       0x20 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .debug_aranges
+                0x0000000000000198       0x40 obj/drivers/acmp/src/acmp.o
+ .debug_aranges
+                0x00000000000001d8       0xc0 obj/drivers/adc/src/adc.o
+ .debug_aranges
+                0x0000000000000298       0xd8 obj/drivers/apt/src/apt.o
+ .debug_aranges
+                0x0000000000000370       0x40 obj/drivers/base/src/clock.o
+ .debug_aranges
+                0x00000000000003b0       0x90 obj/drivers/base/src/interrupt.o
+ .debug_aranges
+                0x0000000000000440      0x188 obj/drivers/crg/src/crg.o
+ .debug_aranges
+                0x00000000000005c8       0x90 obj/drivers/gpio/src/gpio.o
+ .debug_aranges
+                0x0000000000000658       0x30 obj/drivers/pga/src/pga.o
+ .debug_aranges
+                0x0000000000000688       0x68 obj/drivers/timer/src/timer.o
+ .debug_aranges
+                0x00000000000006f0       0xc0 obj/drivers/uart/src/uart.o
+ .debug_aranges
+                0x00000000000007b0       0x20 obj/user/main.o
+ .debug_aranges
+                0x00000000000007d0       0x38 obj/user/generatecode/system_init.o
+
+.debug_str      0x0000000000000000     0xd77c
+ .debug_str     0x0000000000000000       0x4c obj/chip/3065h/startup.o
+ .debug_str     0x000000000000004c      0x5d7 obj/chip/3065h/chipinit/chipinit.o
+                                        0x634 (size before relaxing)
+ .debug_str     0x0000000000000623      0x12a obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+                                        0x551 (size before relaxing)
+ .debug_str     0x000000000000074d     0x1237 obj/chip/3065h/chipinit/adcinit/adcinit.o
+                                       0x172b (size before relaxing)
+ .debug_str     0x0000000000001984      0xc4d obj/chip/3065h/chipinit/crginit/crginit.o
+                                       0x1155 (size before relaxing)
+ .debug_str     0x00000000000025d1      0x720 obj/chip/3065h/chipinit/flashinit/flashinit.o
+                                        0xc43 (size before relaxing)
+ .debug_str     0x0000000000002cf1      0x1c0 obj/chip/3065h/chipinit/pgainit/pgainit.o
+                                        0x667 (size before relaxing)
+ .debug_str     0x0000000000002eb1      0x22b obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+                                        0x833 (size before relaxing)
+ .debug_str     0x00000000000030dc      0x307 obj/chip/3065h/chipinit/systickinit/systickinit.o
+                                        0x76a (size before relaxing)
+ .debug_str     0x00000000000033e3       0xad obj/chip/3065h/fotp/fotp_info_read.o
+                                        0xc77 (size before relaxing)
+ .debug_str     0x0000000000003490       0xf5 obj/chip/3065h/ip_crg/ip_crg_common.o
+                                        0x4e4 (size before relaxing)
+ .debug_str     0x0000000000003585      0x4c7 obj/drivers/acmp/src/acmp.o
+                                        0x95c (size before relaxing)
+ .debug_str     0x0000000000003a4c     0x336c obj/drivers/adc/src/adc.o
+                                       0x410f (size before relaxing)
+ .debug_str     0x0000000000006db8     0x40be obj/drivers/apt/src/apt.o
+                                       0x4cd5 (size before relaxing)
+ .debug_str     0x000000000000ae76       0xb0 obj/drivers/base/src/clock.o
+                                        0x546 (size before relaxing)
+ .debug_str     0x000000000000af26      0x521 obj/drivers/base/src/interrupt.o
+                                        0x9bc (size before relaxing)
+ .debug_str     0x000000000000b447      0x942 obj/drivers/crg/src/crg.o
+                                       0x1c36 (size before relaxing)
+ .debug_str     0x000000000000bd89      0x4c4 obj/drivers/gpio/src/gpio.o
+                                        0x972 (size before relaxing)
+ .debug_str     0x000000000000c24d      0x199 obj/drivers/pga/src/pga.o
+                                        0x714 (size before relaxing)
+ .debug_str     0x000000000000c3e6      0x1b2 obj/drivers/timer/src/timer.o
+                                        0x8e8 (size before relaxing)
+ .debug_str     0x000000000000c598      0xa97 obj/drivers/uart/src/uart.o
+                                       0x1d86 (size before relaxing)
+ .debug_str     0x000000000000d02f       0xc1 obj/user/main.o
+                                       0x62db (size before relaxing)
+ .debug_str     0x000000000000d0f0      0x68c obj/user/generatecode/system_init.o
+                                       0x89e8 (size before relaxing)
+
+.debug_ranges   0x0000000000000000     0x1118
+ .debug_ranges  0x0000000000000000       0x10 obj/chip/3065h/chipinit/chipinit.o
+ .debug_ranges  0x0000000000000010       0x10 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .debug_ranges  0x0000000000000020       0x58 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .debug_ranges  0x0000000000000078       0x18 obj/chip/3065h/chipinit/crginit/crginit.o
+ .debug_ranges  0x0000000000000090       0x60 obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .debug_ranges  0x00000000000000f0       0x10 obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .debug_ranges  0x0000000000000100       0x10 obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .debug_ranges  0x0000000000000110       0x40 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .debug_ranges  0x0000000000000150       0x48 obj/chip/3065h/fotp/fotp_info_read.o
+ .debug_ranges  0x0000000000000198       0x10 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .debug_ranges  0x00000000000001a8       0x48 obj/drivers/acmp/src/acmp.o
+ .debug_ranges  0x00000000000001f0      0x2d0 obj/drivers/adc/src/adc.o
+ .debug_ranges  0x00000000000004c0      0x2e8 obj/drivers/apt/src/apt.o
+ .debug_ranges  0x00000000000007a8       0x60 obj/drivers/base/src/clock.o
+ .debug_ranges  0x0000000000000808       0xd8 obj/drivers/base/src/interrupt.o
+ .debug_ranges  0x00000000000008e0      0x2d8 obj/drivers/crg/src/crg.o
+ .debug_ranges  0x0000000000000bb8      0x110 obj/drivers/gpio/src/gpio.o
+ .debug_ranges  0x0000000000000cc8       0x20 obj/drivers/pga/src/pga.o
+ .debug_ranges  0x0000000000000ce8       0x58 obj/drivers/timer/src/timer.o
+ .debug_ranges  0x0000000000000d40      0x1d8 obj/drivers/uart/src/uart.o
+ .debug_ranges  0x0000000000000f18       0x10 obj/user/main.o
+ .debug_ranges  0x0000000000000f28      0x1f0 obj/user/generatecode/system_init.o
+
+.comment        0x0000000000000000       0x25
+ .comment       0x0000000000000000       0x25 obj/chip/3065h/chipinit/chipinit.o
+                                         0x26 (size before relaxing)
+ .comment       0x0000000000000025       0x26 obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .comment       0x0000000000000025       0x26 obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .comment       0x0000000000000025       0x26 obj/chip/3065h/chipinit/crginit/crginit.o
+ .comment       0x0000000000000025       0x26 obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .comment       0x0000000000000025       0x26 obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .comment       0x0000000000000025       0x26 obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .comment       0x0000000000000025       0x26 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .comment       0x0000000000000025       0x26 obj/chip/3065h/fotp/fotp_info_read.o
+ .comment       0x0000000000000025       0x26 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .comment       0x0000000000000025       0x26 obj/drivers/acmp/src/acmp.o
+ .comment       0x0000000000000025       0x26 obj/drivers/adc/src/adc.o
+ .comment       0x0000000000000025       0x26 obj/drivers/apt/src/apt.o
+ .comment       0x0000000000000025       0x26 obj/drivers/base/src/clock.o
+ .comment       0x0000000000000025       0x26 obj/drivers/base/src/interrupt.o
+ .comment       0x0000000000000025       0x26 obj/drivers/crg/src/crg.o
+ .comment       0x0000000000000025       0x26 obj/drivers/gpio/src/gpio.o
+ .comment       0x0000000000000025       0x26 obj/drivers/pga/src/pga.o
+ .comment       0x0000000000000025       0x26 obj/drivers/timer/src/timer.o
+ .comment       0x0000000000000025       0x26 obj/drivers/uart/src/uart.o
+ .comment       0x0000000000000025       0x26 obj/user/main.o
+ .comment       0x0000000000000025       0x26 obj/user/generatecode/system_init.o
+ .comment       0x0000000000000025       0x26 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memset.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/users/22027120/.deveco-device-tool/compiler_tool_chain/windows/cc_riscv32_musl_fp_win/bin/../sysroot/usr/lib\libc.a(memset.o)
+
+.debug_frame    0x0000000000000000     0x12b4
+ .debug_frame   0x0000000000000000       0x2c obj/chip/3065h/chipinit/chipinit.o
+ .debug_frame   0x000000000000002c       0x2c obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .debug_frame   0x0000000000000058       0x5c obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .debug_frame   0x00000000000000b4       0x4c obj/chip/3065h/chipinit/crginit/crginit.o
+ .debug_frame   0x0000000000000100       0x3c obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .debug_frame   0x000000000000013c       0x2c obj/chip/3065h/chipinit/pgainit/pgainit.o
+ .debug_frame   0x0000000000000168       0x2c obj/chip/3065h/chipinit/pmcinit/pmcinit.o
+ .debug_frame   0x0000000000000194       0x68 obj/chip/3065h/chipinit/systickinit/systickinit.o
+ .debug_frame   0x00000000000001fc       0x20 obj/chip/3065h/fotp/fotp_info_read.o
+ .debug_frame   0x000000000000021c       0x20 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .debug_frame   0x000000000000023c       0x60 obj/drivers/acmp/src/acmp.o
+ .debug_frame   0x000000000000029c      0x248 obj/drivers/adc/src/adc.o
+ .debug_frame   0x00000000000004e4      0x1fc obj/drivers/apt/src/apt.o
+ .debug_frame   0x00000000000006e0       0x9c obj/drivers/base/src/clock.o
+ .debug_frame   0x000000000000077c      0x118 obj/drivers/base/src/interrupt.o
+ .debug_frame   0x0000000000000894      0x424 obj/drivers/crg/src/crg.o
+ .debug_frame   0x0000000000000cb8      0x13c obj/drivers/gpio/src/gpio.o
+ .debug_frame   0x0000000000000df4       0x40 obj/drivers/pga/src/pga.o
+ .debug_frame   0x0000000000000e34       0xe0 obj/drivers/timer/src/timer.o
+ .debug_frame   0x0000000000000f14      0x264 obj/drivers/uart/src/uart.o
+ .debug_frame   0x0000000000001178       0x28 obj/user/main.o
+ .debug_frame   0x00000000000011a0      0x114 obj/user/generatecode/system_init.o
+
+.debug_loc      0x0000000000000000     0x6539
+ .debug_loc     0x0000000000000000       0x6f obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o
+ .debug_loc     0x000000000000006f      0x2aa obj/chip/3065h/chipinit/adcinit/adcinit.o
+ .debug_loc     0x0000000000000319       0x64 obj/chip/3065h/chipinit/crginit/crginit.o
+ .debug_loc     0x000000000000037d      0x207 obj/chip/3065h/chipinit/flashinit/flashinit.o
+ .debug_loc     0x0000000000000584       0xf4 obj/chip/3065h/fotp/fotp_info_read.o
+ .debug_loc     0x0000000000000678       0x59 obj/chip/3065h/ip_crg/ip_crg_common.o
+ .debug_loc     0x00000000000006d1       0xe0 obj/drivers/acmp/src/acmp.o
+ .debug_loc     0x00000000000007b1     0x1a20 obj/drivers/adc/src/adc.o
+ .debug_loc     0x00000000000021d1     0x13ca obj/drivers/apt/src/apt.o
+ .debug_loc     0x000000000000359b      0x211 obj/drivers/base/src/clock.o
+ .debug_loc     0x00000000000037ac      0x81a obj/drivers/base/src/interrupt.o
+ .debug_loc     0x0000000000003fc6      0xf60 obj/drivers/crg/src/crg.o
+ .debug_loc     0x0000000000004f26      0x671 obj/drivers/gpio/src/gpio.o
+ .debug_loc     0x0000000000005597       0x6e obj/drivers/pga/src/pga.o
+ .debug_loc     0x0000000000005605      0x1a1 obj/drivers/timer/src/timer.o
+ .debug_loc     0x00000000000057a6      0xc75 obj/drivers/uart/src/uart.o
+ .debug_loc     0x000000000000641b      0x11e obj/user/generatecode/system_init.o

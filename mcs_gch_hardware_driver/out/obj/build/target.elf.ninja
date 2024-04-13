@@ -1,0 +1,59 @@
+defines = -DFLOAT_SUPPORT
+include_dirs = -I../chip/3065h -I../chip/3065h/chipinit -I../chip/3065h/chipinit/adc_tsensor -I../chip/3065h/chipinit/adcinit -I../chip/3065h/chipinit/crginit -I../chip/3065h/chipinit/flashinit -I../chip/3065h/chipinit/nosinit -I../chip/3065h/chipinit/pgainit -I../chip/3065h/chipinit/pmcinit -I../chip/3065h/chipinit/systickinit -I../chip/3065h/fotp -I../chip/3065h/iomap/3065hrpicz -I../chip/3065h/iomap/3065hrpirz -I../chip/3065h/ip_crg -I../drivers/acmp/common/inc -I../drivers/acmp/inc -I../drivers/adc/common/inc -I../drivers/adc/inc -I../drivers/apt/common/inc -I../drivers/apt/inc -I../drivers/base/common/inc -I../drivers/base/inc -I../drivers/can/common/inc -I../drivers/can/inc -I../drivers/capm/common/inc -I../drivers/capm/inc -I../drivers/cfd/common/inc -I../drivers/cfd/inc -I../drivers/cmm/common/inc -I../drivers/cmm/inc -I../drivers/crc/common/inc -I../drivers/crc/inc -I../drivers/crg/common/inc -I../drivers/crg/inc -I../drivers/dac/common/inc -I../drivers/dac/inc -I../drivers/debug/inc -I../drivers/dma/common/inc -I../drivers/dma/inc -I../drivers/flash/common/inc -I../drivers/flash/inc -I../drivers/gpio/common/inc -I../drivers/gpio/inc -I../drivers/gpt/common/inc -I../drivers/gpt/inc -I../drivers/i2c/common/inc -I../drivers/i2c/inc -I../drivers/iocmg/common -I../drivers/iocmg/inc -I../drivers/pga/common/inc -I../drivers/pga/inc -I../drivers/pmc/common/inc -I../drivers/pmc/inc -I../drivers/qdm/common/inc -I../drivers/qdm/inc -I../drivers/spi/common/inc -I../drivers/spi/inc -I../drivers/timer/common/inc -I../drivers/timer/inc -I../drivers/tsensor/common/inc -I../drivers/tsensor/inc -I../drivers/uart/common/inc -I../drivers/uart/inc -I../drivers/wdg/common/inc -I../drivers/wdg/inc -I../user/generatecode
+asmflags =
+cflags = -Os -pipe -Wall -Wextra -Wmissing-declarations -Winit-self -Wmissing-include-dirs -Wtrampolines -Wundef -Wpointer-arith -Wlogical-op -Wstrict-prototypes -Wmissing-prototypes -Wjump-misses-init -Wformat=2 -Wfloat-equal -Wdate-time -Wswitch-default -Wimplicit-fallthrough=2 -Wno-missing-declarations -std=gnu99 -fsigned-char -fno-builtin -ffreestanding -nostdlib -fno-exceptions -fno-unwind-tables -fno-short-enums -fno-common -freg-struct-return -mabi=ilp32f -march=rv32imfc -fno-strict-aliasing -fdata-sections -ffunction-sections -falign-functions=2 -fno-schedule-insns -fno-optimize-strlen -fno-aggressive-loop-optimizations -Wa,-enable-c-lbu-sb -Wa,-enable-c-lhu-sh -msmall-data-limit=0 -fimm-compare -femit-muliadd -fmerge-immshf -femit-uxtb-uxth -femit-lli -fldm-stm-optimize -fno-inline-small-functions -mtune=size -mpush-pop -femit-clz -madjust-regorder -madjust-const-cost -freorder-commu-args -fimm-compare-expand -frmv-str-zero -mfp-const-opt -mswitch-jump-table -frtl-sequence-abstract -frtl-hoist-sink -fsafe-alias-multipointer -finline-optimize-size -fmuliadd-expand -mlli-expand -Wa,-mcjal-expand -foptimize-reg-alloc -fsplit-multi-zero-assignments -floop-optimize-size -mpattern-abstract -foptimize-pro-and-epilogue -fstrict-volatile-bitfields -g
+target_output_name = target.elf
+
+build obj/chip/3065h/startup.o: asm ../chip/3065h/startup.S
+build obj/chip/3065h/chipinit/chipinit.o: cc ../chip/3065h/chipinit/chipinit.c
+build obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o: cc ../chip/3065h/chipinit/adc_tsensor/adc_tsensor.c
+build obj/chip/3065h/chipinit/adcinit/adcinit.o: cc ../chip/3065h/chipinit/adcinit/adcinit.c
+build obj/chip/3065h/chipinit/crginit/crginit.o: cc ../chip/3065h/chipinit/crginit/crginit.c
+build obj/chip/3065h/chipinit/flashinit/flashinit.o: cc ../chip/3065h/chipinit/flashinit/flashinit.c
+build obj/chip/3065h/chipinit/nosinit/nosinit.o: cc ../chip/3065h/chipinit/nosinit/nosinit.c
+build obj/chip/3065h/chipinit/pgainit/pgainit.o: cc ../chip/3065h/chipinit/pgainit/pgainit.c
+build obj/chip/3065h/chipinit/pmcinit/pmcinit.o: cc ../chip/3065h/chipinit/pmcinit/pmcinit.c
+build obj/chip/3065h/chipinit/systickinit/systickinit.o: cc ../chip/3065h/chipinit/systickinit/systickinit.c
+build obj/chip/3065h/fotp/fotp_info_read.o: cc ../chip/3065h/fotp/fotp_info_read.c
+build obj/chip/3065h/ip_crg/ip_crg_common.o: cc ../chip/3065h/ip_crg/ip_crg_common.c
+build obj/drivers/acmp/src/acmp.o: cc ../drivers/acmp/src/acmp.c
+build obj/drivers/adc/src/adc.o: cc ../drivers/adc/src/adc.c
+build obj/drivers/apt/src/apt.o: cc ../drivers/apt/src/apt.c
+build obj/drivers/base/src/base_math.o: cc ../drivers/base/src/base_math.c
+build obj/drivers/base/src/clock.o: cc ../drivers/base/src/clock.c
+build obj/drivers/base/src/generalfunc.o: cc ../drivers/base/src/generalfunc.c
+build obj/drivers/base/src/interrupt.o: cc ../drivers/base/src/interrupt.c
+build obj/drivers/base/src/lock.o: cc ../drivers/base/src/lock.c
+build obj/drivers/base/src/reset.o: cc ../drivers/base/src/reset.c
+build obj/drivers/can/src/can.o: cc ../drivers/can/src/can.c
+build obj/drivers/capm/src/capm.o: cc ../drivers/capm/src/capm.c
+build obj/drivers/cfd/src/cfd.o: cc ../drivers/cfd/src/cfd.c
+build obj/drivers/cmm/src/cmm.o: cc ../drivers/cmm/src/cmm.c
+build obj/drivers/crc/src/crc.o: cc ../drivers/crc/src/crc.c
+build obj/drivers/crg/src/crg.o: cc ../drivers/crg/src/crg.c
+build obj/drivers/dac/src/dac.o: cc ../drivers/dac/src/dac.c
+build obj/drivers/debug/src/debug.o: cc ../drivers/debug/src/debug.c
+build obj/drivers/dma/src/dma.o: cc ../drivers/dma/src/dma.c
+build obj/drivers/flash/src/flash.o: cc ../drivers/flash/src/flash.c
+build obj/drivers/gpio/src/gpio.o: cc ../drivers/gpio/src/gpio.c
+build obj/drivers/gpt/src/gpt.o: cc ../drivers/gpt/src/gpt.c
+build obj/drivers/i2c/src/i2c.o: cc ../drivers/i2c/src/i2c.c
+build obj/drivers/iocmg/src/iocmg.o: cc ../drivers/iocmg/src/iocmg.c
+build obj/drivers/pga/src/pga.o: cc ../drivers/pga/src/pga.c
+build obj/drivers/pmc/src/pmc.o: cc ../drivers/pmc/src/pmc.c
+build obj/drivers/qdm/src/qdm.o: cc ../drivers/qdm/src/qdm.c
+build obj/drivers/spi/src/spi.o: cc ../drivers/spi/src/spi.c
+build obj/drivers/timer/src/timer.o: cc ../drivers/timer/src/timer.c
+build obj/drivers/tsensor/src/tsensor.o: cc ../drivers/tsensor/src/tsensor.c
+build obj/drivers/tsensor/src/tsensor_ex.o: cc ../drivers/tsensor/src/tsensor_ex.c
+build obj/drivers/uart/src/uart.o: cc ../drivers/uart/src/uart.c
+build obj/drivers/wdg/src/wdg.o: cc ../drivers/wdg/src/wdg.c
+build obj/user/main.o: cc ../user/main.c
+build obj/user/generatecode/system_init.o: cc ../user/generatecode/system_init.c
+
+build ./bin/target.elf: link obj/chip/3065h/startup.o obj/chip/3065h/chipinit/chipinit.o obj/chip/3065h/chipinit/adc_tsensor/adc_tsensor.o obj/chip/3065h/chipinit/adcinit/adcinit.o obj/chip/3065h/chipinit/crginit/crginit.o obj/chip/3065h/chipinit/flashinit/flashinit.o obj/chip/3065h/chipinit/nosinit/nosinit.o obj/chip/3065h/chipinit/pgainit/pgainit.o obj/chip/3065h/chipinit/pmcinit/pmcinit.o obj/chip/3065h/chipinit/systickinit/systickinit.o obj/chip/3065h/fotp/fotp_info_read.o obj/chip/3065h/ip_crg/ip_crg_common.o obj/drivers/acmp/src/acmp.o obj/drivers/adc/src/adc.o obj/drivers/apt/src/apt.o obj/drivers/base/src/base_math.o obj/drivers/base/src/clock.o obj/drivers/base/src/generalfunc.o obj/drivers/base/src/interrupt.o obj/drivers/base/src/lock.o obj/drivers/base/src/reset.o obj/drivers/can/src/can.o obj/drivers/capm/src/capm.o obj/drivers/cfd/src/cfd.o obj/drivers/cmm/src/cmm.o obj/drivers/crc/src/crc.o obj/drivers/crg/src/crg.o obj/drivers/dac/src/dac.o obj/drivers/debug/src/debug.o obj/drivers/dma/src/dma.o obj/drivers/flash/src/flash.o obj/drivers/gpio/src/gpio.o obj/drivers/gpt/src/gpt.o obj/drivers/i2c/src/i2c.o obj/drivers/iocmg/src/iocmg.o obj/drivers/pga/src/pga.o obj/drivers/pmc/src/pmc.o obj/drivers/qdm/src/qdm.o obj/drivers/spi/src/spi.o obj/drivers/timer/src/timer.o obj/drivers/tsensor/src/tsensor.o obj/drivers/tsensor/src/tsensor_ex.o obj/drivers/uart/src/uart.o obj/drivers/wdg/src/wdg.o obj/user/main.o obj/user/generatecode/system_init.o
+  ldflags = -Wl,-Map,bin/target.map -Wl,--enjal16 -Wl,--gc-section -Wl,--cjal-relax -Wl,--dslf -Wl,--jal-transfer -nostdlib -static -lgcc -lc -T..\chip\3065h\flash.lds
+  libs =
+  frameworks =
+  output_extension = 
+  output_dir = .

@@ -1,0 +1,27 @@
+{
+    "modules": [
+        "application/user",
+        "build",
+        "chip/3065h/chipinit",
+        "chip/3065h/fotp",
+        "chip/3065h/iomap/3065hrpirz",
+        "chip/3065h/ip_crg",
+        "chip/3065h/baseaddr.h",
+        "chip/3065h/chipinc.h",
+        "chip/3065h/info.h",
+        "chip/3065h/interrupt_ip.h",
+        "chip/3065h/ioconfig.h",
+        "chip/3065h/locktype.h",
+        "chip/3065h/sysctrl.h",
+        "chip/3065h/systick.h",
+        "chip/3065h/flash.lds",
+        "chip/3065h/startup.S",
+        "chip/target",
+        "drivers",
+        "generatecode",
+        "middleware/hisilicon/loaderboot",
+        "middleware/thirdparty/sysroot",
+        "tools/uttest",
+        "bundle.json"
+    ]
+}

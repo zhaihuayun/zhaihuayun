@@ -1,0 +1,12 @@
+{
+    "name": "@zh1020850/hw_openocd",
+    "version": "1.0.5",
+    "description": "toolchain",
+    "license": "MIT",
+    "publishAs": "binary",
+    "dirs": {
+        ".": [
+        "hw_openocd"
+        ]
+        }
+}
